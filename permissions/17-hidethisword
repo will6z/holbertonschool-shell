@@ -1,7 +1,2 @@
 #!/bin/bash
-<<<<<<< HEAD
 grep -v "bin" etc/passwd
-
-=======
-grep -v "bin" /etc/passwd
->>>>>>> f4e5d6df22f949572ade5cc5b025fef2d6349632
