@@ -1,0 +1,9 @@
+[
+  {
+    "name": "GCC 12.2.0 x86_64-linux-gnu",
+    "compilers": {
+      "C": "/usr/bin/c89-gcc"
+    },
+    "isTrusted": true
+  }
+]

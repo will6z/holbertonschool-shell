@@ -1,0 +1,33 @@
+2024-07-23 13:16:44.453 [info] update#setState idle
+2024-07-23 13:17:14.459 [info] update#setState checking for updates
+2024-07-23 13:17:14.476 [info] update#setState available for download
+2024-07-23 14:47:32.967 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-23 23:17:39.933 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-24 17:02:27.627 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-24 17:35:31.696 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-24 17:43:38.592 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-27 13:20:28.139 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-29 08:52:30.879 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-29 10:02:32.395 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-29 11:14:51.946 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-29 11:39:07.690 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-29 12:18:15.944 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-29 12:31:25.462 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-29 14:11:38.108 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-29 14:33:07.692 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-29 15:32:19.906 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-29 16:14:51.871 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-29 16:53:15.907 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-29 17:59:01.579 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-29 20:06:30.906 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-29 22:47:51.908 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-30 10:16:23.418 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-30 11:19:04.630 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-30 11:51:17.876 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-30 11:54:18.569 [error] ptyHost terminated unexpectedly with code 15
+2024-07-30 11:54:18.574 [warning] [UtilityProcess type: ptyHost, pid: 643]: unable to kill the process
+2024-07-30 11:54:19.026 [info] Extension host with pid 599 exited with code: 0, signal: unknown.
+2024-07-30 11:54:19.029 [error] [UtilityProcess id: 1, type: extensionHost, pid: 599]: crashed with code 15 and reason 'killed'
+2024-07-30 11:54:19.038 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 598]: crashed with code 15 and reason 'killed'
+2024-07-30 11:54:19.042 [error] [UtilityProcess type: shared-process, pid: 597]: crashed with code 15 and reason 'killed'
+2024-07-30 11:54:19.105 [error] CodeWindow: renderer process gone (reason: clean-exit, code: <unknown>)

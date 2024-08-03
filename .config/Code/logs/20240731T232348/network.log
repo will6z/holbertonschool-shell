@@ -1,0 +1,6 @@
+2024-08-01 07:09:55.176 [error] electron #18: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_NETWORK_CHANGED
+2024-08-01 07:55:33.345 [error] electron #19: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_NETWORK_CHANGED
+2024-08-01 08:07:24.409 [error] electron #20: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_NETWORK_CHANGED
+2024-08-01 08:19:30.390 [error] electron #21: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_NETWORK_CHANGED
+2024-08-01 08:43:37.221 [error] electron #22: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_NETWORK_CHANGED
+2024-08-02 19:05:14.267 [error] electron #51: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_NETWORK_CHANGED

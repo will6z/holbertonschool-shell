@@ -11,29 +11,50 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~Msle0~/\<ls\>
+~MSle0~/\<ls\>
+
+# Last Substitute String:
+$
 
 # Command Line History (newest to oldest):
 :x
-|2,0,1707495510,,"x"
-:q!
-|2,0,1707494894,,"q!"
+|2,0,1722644238,,"x"
 :X
-|2,0,1707494787,,"X"
+|2,0,1722644224,,"X"
+:q!
+|2,0,1722272770,,"q!"
+:Q!
+|2,0,1721351945,,"Q!"
 :q
-|2,0,1707494590,,"q"
+|2,0,1721271081,,"q"
+:exit
+|2,0,1716412286,,"exit"
+:d
+|2,0,1716320801,,"d"
+:w
+|2,0,1712760571,,"w"
+:!
+|2,0,1712599901,,"!"
+:c
+|2,0,1712243220,,"c"
+:Q
+|2,0,1710769806,,"Q"
 :s
-|2,0,1707494238,,"s"
+|2,0,1709043145,,"s"
+:i
+|2,0,1709040337,,"i"
+:wq
+|2,0,1708022050,,"wq"
 :`
 |2,0,1707491322,,"`"
-:wq
-|2,0,1707490038,,"wq"
 :qa
 |2,0,1707244456,,"qa"
 :qa 
 |2,0,1707244414,,"qa "
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1718660988,,"@$"
 ? \<ls\>
 |2,1,1707491471,,"\\<ls\\>"
 
@@ -44,331 +65,1124 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+"0	CHAR	0
+	[
+|3,0,0,0,1,0,1718660988,"["
+"1	LINE	0
+	#!/usr/bin/python3
+|3,0,1,1,1,0,1716320801,"#!/usr/bin/python3"
+"2	CHAR	0
+	int _putchar (char c);
+	
+	void print_alphabet(void);
+	
+	void print_alphabet(void);
+	
+	int _islower(int c);
+	
+	int isalpha(int c);
+	
+	int print_sign(int n);
+	
+	int _abs(int);
+	
+	int print_last_digit(int);
+	
+	void jack_bauer(void);
+	
+	void times_table(void);
+	
+	int add(int, int);
+	
+	void print_to_98(int n);
+	
+	void print_times_table(int n);
+|3,0,2,0,25,0,1708957619,"int _putchar (char c);","","void print_alphabet(void);","","void print_alphabet(void);","","int _islower(int c);","","int isalpha(int c);","","int print_sign(int n);","","int _abs(int);","","int print_last_digit(int);","","void jack_bauer(void);","","void times_table(void);","","int add(int, int);","","void print_to_98(int n);","","void print_times_table(int n);"
+"3	CHAR	0
+	if (m > 5)
+		{
+		printf("Last digit of %d is %d  and is greater than 5\n", n, m);
+		}
+		else if (m < 6 && m != 0)
+		{
+		printf("Last digit of %d is $d and is less than 6 and not 0\n", n, m);
+		{
+		else
+		}
+		printf("Last digit of %d is %d and is 0\n", n, m);
+		return (0);
+	}
+|3,0,3,0,13,0,1708618396,"if (m > 5)","	{","	printf(\"Last digit of %d is %d  and is greater than 5\\n\", n, m);","	}","	else if (m < 6 && m != 0)","	{","	printf(\"Last digit of %d is $d and is less than 6 and not 0\\n\", n, m);","	{","	else","	}","	printf(\"Last digit of %d is %d and is 0\\n\", n, m);","	return (0);","}"
+"4	CHAR	0
+		int n;
+		int m;
+	
+		srand(time(0));
+		n = rand() - RAND_MAX / 2;
+		m = n % 10;
+		if (m > 5)
+		{
+		printf("Last digit of %d is %d  and is greater than 5\n", n, m);
+		}
+		else if (m < 6 && m != 0)
+		{
+		printf("Last digit of %d is $d and is less than 6 and not 0\n", n, m);
+		{
+		else
+		}
+		
+	
+|3,0,4,0,18,0,1708618298,"	int n;","	int m;","","	srand(time(0));","	n = rand() - RAND_MAX / 2;","	m = n % 10;","	if (m > 5)","	{","	printf(\"Last digit of %d is %d  and is greater than 5\\n\", n, m);","	}","	else if (m < 6 && m != 0)","	{","	printf(\"Last digit of %d is $d and is less than 6 and not 0\\n\", n, m);","	{","	else","	}","	",""
 ""-	CHAR	0
-	r
-|3,1,36,0,1,0,1707493176,"r"
+	i
+|3,1,36,0,1,0,1721857461,"i"
 
 # File marks:
-'0  2  31  ~/holbertonschool-shell/basics/7-movethatfile
-|4,48,2,31,1707495510,"~/holbertonschool-shell/basics/7-movethatfile"
-'1  1  15  ~/holbertonschool-shell/basics/7-movethatfile
-|4,49,1,15,1707494980,"~/holbertonschool-shell/basics/7-movethatfile"
-'2  2  4  ~/holbertonschool-shell/basics/7-movethatfile
-|4,50,2,4,1707494980,"~/holbertonschool-shell/basics/7-movethatfile"
-'3  1  0  ~/holbertonschool-shell/basics/tmp/7
-|4,51,1,0,1707494894,"~/holbertonschool-shell/basics/tmp/7"
-'4  1  14  ~/holbertonschool-shell/basics/7-movethatfile
-|4,52,1,14,1707494790,"~/holbertonschool-shell/basics/7-movethatfile"
-'5  2  3  ~/holbertonschool-shell/basics/7-movethatfile
-|4,53,2,3,1707494790,"~/holbertonschool-shell/basics/7-movethatfile"
-'6  1  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,54,1,0,1707494732,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
-'7  1  22  ~/holbertonschool-shell/basics/7-movethatfile
-|4,55,1,22,1707494721,"~/holbertonschool-shell/basics/7-movethatfile"
-'8  1  22  ~/holbertonschool-shell/basics/7-movethatfile
-|4,56,1,22,1707494721,"~/holbertonschool-shell/basics/7-movethatfile"
-'9  2  11  ~/holbertonschool-shell/basics/7-movethatfile
-|4,57,2,11,1707494721,"~/holbertonschool-shell/basics/7-movethatfile"
+'0  1  0  ~/holbertonschool-hbnb-client/03-frontend/mock-api/app.py
+|4,48,1,0,1722644238,"~/holbertonschool-hbnb-client/03-frontend/mock-api/app.py"
+'1  1  0  ~/holbertonschool-hbnb-client/03-frontend/mock-api/config.py
+|4,49,1,0,1722644227,"~/holbertonschool-hbnb-client/03-frontend/mock-api/config.py"
+'2  1  0  ~/holbertonschool-hbnb-client/03-frontend/mock-api/requirements.txt
+|4,50,1,0,1722644215,"~/holbertonschool-hbnb-client/03-frontend/mock-api/requirements.txt"
+'3  34  5  ~/holbertonschool-hbnb-client/03-frontend/index.html
+|4,51,34,5,1722644171,"~/holbertonschool-hbnb-client/03-frontend/index.html"
+'4  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,52,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+'5  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,53,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+'6  101  0  ~/holbertonschool-hbnb-client/03-frontend/styles.css
+|4,54,101,0,1722638993,"~/holbertonschool-hbnb-client/03-frontend/styles.css"
+'7  33  6  ~/holbertonschool-hbnb-client/03-frontend/add_review.html
+|4,55,33,6,1722638969,"~/holbertonschool-hbnb-client/03-frontend/add_review.html"
+'8  44  6  ~/holbertonschool-hbnb-client/03-frontend/place.html
+|4,56,44,6,1722638954,"~/holbertonschool-hbnb-client/03-frontend/place.html"
+'9  34  6  ~/holbertonschool-hbnb-client/03-frontend/index.html
+|4,57,34,6,1722638943,"~/holbertonschool-hbnb-client/03-frontend/index.html"
 
 # Jumplist (newest first):
--'  2  31  ~/holbertonschool-shell/basics/7-movethatfile
-|4,39,2,31,1707495510,"~/holbertonschool-shell/basics/7-movethatfile"
--'  1  15  ~/holbertonschool-shell/basics/7-movethatfile
-|4,39,1,15,1707495475,"~/holbertonschool-shell/basics/7-movethatfile"
--'  2  4  ~/holbertonschool-shell/basics/7-movethatfile
-|4,39,2,4,1707494980,"~/holbertonschool-shell/basics/7-movethatfile"
--'  1  0  ~/holbertonschool-shell/basics/tmp/7
-|4,39,1,0,1707494894,"~/holbertonschool-shell/basics/tmp/7"
--'  1  0  ~/holbertonschool-shell/basics/tmp/7
-|4,39,1,0,1707494894,"~/holbertonschool-shell/basics/tmp/7"
--'  1  0  ~/holbertonschool-shell/basics/tmp/7
-|4,39,1,0,1707494894,"~/holbertonschool-shell/basics/tmp/7"
--'  1  0  ~/holbertonschool-shell/basics/tmp/7
-|4,39,1,0,1707494894,"~/holbertonschool-shell/basics/tmp/7"
--'  2  3  ~/holbertonschool-shell/basics/7-movethatfile
-|4,39,2,3,1707494790,"~/holbertonschool-shell/basics/7-movethatfile"
--'  2  3  ~/holbertonschool-shell/basics/7-movethatfile
-|4,39,2,3,1707494790,"~/holbertonschool-shell/basics/7-movethatfile"
--'  1  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,0,1707494732,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,0,1707494732,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,0,1707494732,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,0,1707494732,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,0,1707494732,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,0,1707494732,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,0,1707494732,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,0,1707494732,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,0,1707494732,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,0,1707494732,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,0,1707494732,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,0,1707494732,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,0,1707494732,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,0,1707494732,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,0,1707494732,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,0,1707494732,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  2  11  ~/holbertonschool-shell/basics/7-movethatfile
-|4,39,2,11,1707494721,"~/holbertonschool-shell/basics/7-movethatfile"
--'  2  11  ~/holbertonschool-shell/basics/7-movethatfile
-|4,39,2,11,1707494721,"~/holbertonschool-shell/basics/7-movethatfile"
--'  2  11  ~/holbertonschool-shell/basics/7-movethatfile
-|4,39,2,11,1707494721,"~/holbertonschool-shell/basics/7-movethatfile"
--'  2  11  ~/holbertonschool-shell/basics/7-movethatfile
-|4,39,2,11,1707494721,"~/holbertonschool-shell/basics/7-movethatfile"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  12  0  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,12,0,1707494593,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  1  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,1,1707494591,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  1  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,1,1707494591,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  1  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,1,1707494591,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  1  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,1,1707494591,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  1  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,1,1707494591,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  1  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,1,1707494591,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  1  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,1,1707494591,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  1  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,1,1707494591,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  1  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,1,1707494591,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  1  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,1,1707494591,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  1  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,1,1707494591,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  1  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,1,1707494591,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  1  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,1,1707494591,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  1  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,1,1707494591,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  1  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,1,1707494591,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  1  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,1,1707494591,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  1  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,1,1707494591,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  1  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,1,1707494591,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  1  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,1,1707494591,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  1  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,1,1707494591,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  1  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,1,1707494591,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  1  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,1,1707494591,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
--'  1  1  ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-|4,39,1,1,1707494591,"~/holbertonschool-shell/.git/COMMIT_EDITMSG"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/mock-api/app.py
+|4,39,1,0,1722644238,"~/holbertonschool-hbnb-client/03-frontend/mock-api/app.py"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/mock-api/config.py
+|4,39,1,0,1722644227,"~/holbertonschool-hbnb-client/03-frontend/mock-api/config.py"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/mock-api/config.py
+|4,39,1,0,1722644227,"~/holbertonschool-hbnb-client/03-frontend/mock-api/config.py"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/mock-api/requirements.txt
+|4,39,1,0,1722644215,"~/holbertonschool-hbnb-client/03-frontend/mock-api/requirements.txt"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/mock-api/requirements.txt
+|4,39,1,0,1722644215,"~/holbertonschool-hbnb-client/03-frontend/mock-api/requirements.txt"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/mock-api/requirements.txt
+|4,39,1,0,1722644215,"~/holbertonschool-hbnb-client/03-frontend/mock-api/requirements.txt"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/mock-api/requirements.txt
+|4,39,1,0,1722644215,"~/holbertonschool-hbnb-client/03-frontend/mock-api/requirements.txt"
+-'  34  5  ~/holbertonschool-hbnb-client/03-frontend/index.html
+|4,39,34,5,1722644171,"~/holbertonschool-hbnb-client/03-frontend/index.html"
+-'  34  5  ~/holbertonschool-hbnb-client/03-frontend/index.html
+|4,39,34,5,1722644171,"~/holbertonschool-hbnb-client/03-frontend/index.html"
+-'  34  5  ~/holbertonschool-hbnb-client/03-frontend/index.html
+|4,39,34,5,1722644171,"~/holbertonschool-hbnb-client/03-frontend/index.html"
+-'  34  5  ~/holbertonschool-hbnb-client/03-frontend/index.html
+|4,39,34,5,1722644171,"~/holbertonschool-hbnb-client/03-frontend/index.html"
+-'  34  5  ~/holbertonschool-hbnb-client/03-frontend/index.html
+|4,39,34,5,1722644171,"~/holbertonschool-hbnb-client/03-frontend/index.html"
+-'  34  5  ~/holbertonschool-hbnb-client/03-frontend/index.html
+|4,39,34,5,1722644171,"~/holbertonschool-hbnb-client/03-frontend/index.html"
+-'  34  5  ~/holbertonschool-hbnb-client/03-frontend/index.html
+|4,39,34,5,1722644171,"~/holbertonschool-hbnb-client/03-frontend/index.html"
+-'  34  5  ~/holbertonschool-hbnb-client/03-frontend/index.html
+|4,39,34,5,1722644171,"~/holbertonschool-hbnb-client/03-frontend/index.html"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
 
 # History of marks within files (newest to oldest):
 
-> ~/holbertonschool-shell/basics/7-movethatfile
-	*	1707495507	0
-	"	2	31
-	^	2	32
-	.	2	31
-	+	1	11
-	+	2	31
-
-> ~/holbertonschool-shell/basics/tmp/7
-	*	1707494891	0
+> ~/holbertonschool-hbnb-client/03-frontend/mock-api/app.py
+	*	1722644237	0
 	"	1	0
 
-> ~/holbertonschool-shell/.git/COMMIT_EDITMSG
-	*	1707494728	0
-	"	1	0
-	^	1	2
-	.	1	1
-	+	1	1
-
-> ~/holbertonschool-shell/basics/6-firstdirectory
-	*	1707493961	0
-	"	2	8
-	^	2	9
-	.	2	8
-	+	2	8
-
-> ~/holbertonschool-shell/basics/6
-	*	1707493667	0
+> ~/holbertonschool-hbnb-client/03-frontend/mock-api/config.py
+	*	1722644225	0
 	"	1	0
 
-> ~/holbertonschool-shell/basics/5-listfilesdigitonly
-	*	1707492903	0
-	"	2	6
-	^	2	7
-	.	2	7
-	+	2	7
-
-> ~/holbertonschool-shell/basics/4-listmorefiles
-	*	1707492447	0
-	"	2	0
-	^	2	0
-	.	2	0
-	+	1	10
-	+	3	8
-	+	1	16
-	+	1	10
-	+	1	11
-	+	2	0
-
-> ~/holbertonschool-shell/basics/4
-	*	1707491624	0
+> ~/holbertonschool-hbnb-client/03-frontend/mock-api/requirements.txt
+	*	1722644214	0
 	"	1	0
 
-> ~/holbertonschool-shell/basics/3-listfiles
-	*	1707490999	0
-	"	2	4
-	^	2	5
-	.	2	4
-	+	2	4
+> ~/holbertonschool-hbnb-client/03-frontend/index.html
+	*	1722644170	0
+	"	34	5
+	^	34	6
+	.	35	0
+	+	35	0
 
-> ~/holbertonschool-shell/basics/2-bring_me_home
-	*	1707490747	0
-	"	2	1
-	^	2	2
-	.	2	1
-	+	2	1
+> ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+	*	1722644152	0
+	"	290	2
+	^	290	3
+	.	290	2
+	+	290	2
 
-> ~/holbertonschool-shell/basics/1-listit
-	*	1707490545	0
-	"	2	1
-	^	2	2
-	.	2	1
-	+	1	80
-	+	1	11
-	+	2	1
+> ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
+	*	1722644122	0
+	"	290	2
+	^	290	3
+	.	290	2
+	+	290	2
 
-> ~/holbertonschool-shell/basics/0-current_working_directory
-	*	1707489792	0
-	"	2	7
-	^	2	8
-	.	2	8
-	+	1	10
-	+	2	8
+> ~/holbertonschool-hbnb-client/03-frontend/styles.css
+	*	1722638992	0
+	"	101	0
+	^	101	0
+	.	100	1
+	+	100	1
 
-> ~/holbertonschool-zero_day/.git/MERGE_MSG
-	*	1707328434	0
-	"	7	0
-	^	7	0
+> ~/holbertonschool-hbnb-client/03-frontend/add_review.html
+	*	1722638968	0
+	"	33	6
+	^	33	7
+	.	34	0
+	+	34	0
+
+> ~/holbertonschool-hbnb-client/03-frontend/place.html
+	*	1722638953	0
+	"	44	6
+	^	44	7
+	.	45	0
+	+	45	0
+
+> ~/holbertonschool-hbnb-client/03-frontend/login.html
+	*	1722638927	0
+	"	27	6
+	^	27	7
+	.	28	0
+	+	27	7
+	+	28	0
+
+> ~/holbertonschool-higher_level_programming/restful-api/task_02_requests.py
+	*	1722482681	0
+	"	29	0
+
+> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/8-main.html
+	*	1722272840	0
+	"	18	6
+	^	18	7
+	.	19	0
+	+	19	0
+
+> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/8-script.js
+	*	1722272817	0
+	"	8	2
+	^	8	3
+	.	9	0
+	+	9	0
+
+> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/7-main.html
+	*	1722272786	0
+	"	19	6
+	^	20	0
+	.	19	7
+	+	32	6
+	+	19	7
+
+> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/7-script.js
+	*	1722272757	0
+	"	14	2
+	^	14	3
+	.	15	0
+	+	1	53
+	+	15	0
+
+> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/6-main.html
+	*	1722272691	0
+	"	18	6
+	^	18	7
+	.	19	0
+	+	18	7
+	+	19	0
+
+> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/6-script.js
+	*	1722272671	0
+	"	8	2
+	^	8	3
+	.	9	0
+	+	8	3
+	+	9	0
+
+> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/5-main.html
+	*	1722272635	0
+	"	18	6
+	^	18	7
+	.	19	0
+	+	19	0
+
+> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/5-script.js
+	*	1722272619	0
+	"	5	2
+	^	5	3
 	.	6	0
-	+	1	1
 	+	6	0
 
-> ~/holbertonschool-zero_day/git/bash/best
-	*	1707244457	0
-	"	50	0
-	^	54	0
-	.	53	0
-	+	53	0
+> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/4-main.html
+	*	1722272509	0
+	"	21	6
+	^	21	7
+	.	22	0
+	+	22	0
+
+> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/4-script.js
+	*	1722272493	0
+	"	7	2
+	^	7	3
+	.	8	0
+	+	8	0
+
+> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/3-main.html
+	*	1722272217	0
+	"	25	0
+	^	25	0
+	.	24	7
+	+	24	7
+
+> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/3-script.js
+	*	1722271849	0
+	"	12	2
+	^	12	3
+	.	13	0
+	+	13	0
+
+> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/2-main.html
+	*	1722271793	0
+	"	21	6
+	^	21	7
+	.	22	0
+	+	22	0
+
+> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/2-script.js
+	*	1722271777	0
+	"	5	2
+	^	5	3
+	.	6	0
+	+	6	0
+
+> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/1-main.html
+	*	1722271240	0
+	"	16	6
+	^	16	7
+	.	17	0
+	+	17	0
+
+> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/1-script.js
+	*	1722271164	0
+	"	5	2
+	^	5	3
+	.	6	0
+	+	5	3
+	+	6	0
+
+> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/0-main.html
+	*	1722271057	0
+	"	15	6
+	^	15	7
+	.	16	0
+	+	15	7
+	+	16	0
+
+> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/0-script.js
+	*	1722270797	0
+	"	3	2
+	^	3	3
+	.	4	0
+	+	3	3
+	+	4	0
+
+> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/README.md
+	*	1722270713	0
+	"	1	26
+	^	1	27
+	.	1	26
+	+	1	26
+
+> ~/holbertonschool-web_back_end/ES6_promise/6-final-user.js
+	*	1721857662	0
+	"	3	0
+	^	1	1
+	.	1	0
+	+	27	0
+	+	1	0
+	+	15	0
+	+	1	0
+
+> ~/holbertonschool-web_back_end/ES6_promise/6-final-user.
+	*	1721857448	0
+	"	1	0
+
+> ~/holbertonschool-web_back_end/ES6_promise/6-final-user.test.js
+	*	1721856838	0
+	"	1	0
+	^	1	0
+	.	2	0
+	+	15	3
+	+	16	0
+	+	1	0
+	+	2	0
+
+> ~/holbertonschool-web_back_end/ES6_promise/6-main.js
+	*	1721856280	0
+	"	3	70
+	^	3	71
+	.	4	0
+	+	3	71
+	+	1	0
+	+	2	0
+	+	4	0
+
+> ~/holbertonschool-web_back_end/ES6_promise/5-main.js
+	*	1721856166	0
+	"	1	0
+	^	1	0
+	.	2	0
+	+	4	0
+	+	1	0
+	+	2	0
+
+> ~/holbertonschool-web_back_end/ES6_promise/5-photo-reject.js
+	*	1721856150	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	4	0
+	+	1	0
+
+> ~/holbertonschool-web_back_end/ES6_promise/4-main.js
+	*	1721856046	0
+	"	3	39
+	^	3	40
+	.	4	0
+	+	3	40
+	+	1	0
+	+	2	0
+	+	4	0
+
+> ~/holbertonschool-web_back_end/ES6_promise/4-user-promise.js
+	*	1721856027	0
+	"	1	0
+	^	1	0
+	.	2	0
+	+	6	0
+	+	1	0
+	+	2	0
+
+> ~/holbertonschool-web_back_end/ES6_promise/3-main.js
+	*	1721855755	0
+	"	3	21
+	^	3	22
+	.	4	0
+	+	3	22
+	+	1	0
+	+	2	0
+	+	4	0
+
+> ~/holbertonschool-web_back_end/ES6_promise/utils.js
+	*	1721855735	0
+	"	1	0
+	^	1	0
+	.	2	0
+	+	8	0
+	+	1	0
+	+	2	0
+
+> ~/holbertonschool-web_back_end/ES6_promise/3-all.js
+	*	1721855710	0
+	"	1	0
+	^	1	0
+	.	2	0
+	+	14	0
+	+	1	0
+	+	2	0
+
+> ~/holbertonschool-web_back_end/ES6_promise/2-main.js
+	*	1721855500	0
+	"	1	0
+	^	1	0
+	.	2	0
+	+	8	0
+	+	1	0
+	+	2	0
+
+> ~/holbertonschool-web_back_end/ES6_promise/2-then.js
+	*	1721855487	0
+	"	1	0
+	^	1	0
+	.	2	0
+	+	14	0
+	+	1	0
+	+	2	0
+
+> ~/holbertonschool-web_back_end/ES6_promise/1-main.js
+	*	1721855324	0
+	"	4	42
+	^	4	43
+	.	5	0
+	+	4	43
+	+	1	0
+	+	2	0
+	+	5	0
+
+> ~/holbertonschool-web_back_end/ES6_promise/1-promise.js
+	*	1721855305	0
+	"	1	0
+	^	1	0
+	.	2	0
+	+	12	0
+	+	1	0
+	+	2	0
+
+> ~/holbertonschool-web_back_end/ES6_promise/0-promise.js
+	*	1721855192	0
+	"	1	0
+	^	1	0
+	.	2	0
+	+	8	0
+	+	1	0
+	+	1	31
+	+	1	104
+	+	7	34
+	+	8	0
+	+	1	0
+	+	2	0
+
+> ~/holbertonschool-web_back_end/ES6_promise/0-main.js
+	*	1721855104	0
+	"	1	36
+	^	1	37
+	.	2	0
+	+	4	41
+	+	5	0
+	+	1	0
+	+	2	0
+
+> ~/holbertonschool-web_back_end/ES6_promise/README.md
+	*	1721855024	0
+	"	1	11
+	^	1	12
+	.	1	11
+	+	1	11
+
+> ~/holbertonschool-web_back_end/ES6_data_manipulation/7-has_array_values.js
+	*	1721761551	0
+	"	1	0
+	^	1	0
+	.	2	0
+	+	10	0
+	+	1	0
+	+	6	0
+	+	1	0
+	+	2	0
+
+> ~/holbertonschool-web_back_end/ES6_data_manipulation/10-update_uniq_items.js
+	*	1721761424	0
+	"	1	0
+	^	1	0
+	.	2	0
+	+	25	33
+	+	26	0
+	+	1	0
+	+	14	0
+	+	1	0
+	+	2	0
+
+> ~/holbertonschool-web_back_end/ES6_data_manipulation/10-main.js
+	*	1721761340	0
+	"	1	0
+	^	1	0
+	.	2	0
+	+	9	0
+	+	1	0
+	+	2	0
+
+> ~/holbertonschool-web_back_end/ES6_data_manipulation/9-main.js
+	*	1721761155	0
+	"	1	0
+	^	1	0
+	.	2	0
+	+	4	0
+	+	1	0
+	+	2	0
+
+> ~/holbertonschool-web_back_end/ES6_data_manipulation/9-groceries_list.js
+	*	1721761140	0
+	"	1	0
+	^	1	0
+	.	2	0
+	+	13	0
+	+	1	0
+	+	2	0
+
+> ~/holbertonschool-web_back_end/ES6_data_manipulation/8-clean_set.js
+	*	1721760969	0
+	"	16	23
+	^	16	24
+	.	17	0
+	+	31	0
+	+	1	0
+	+	17	0
+
+> ~/holbertonschool-web_back_end/ES6_data_manipulation/8-main.js
+	*	1721760625	0
+	"	1	0
+	^	1	0
+	.	2	0
+	+	5	0
+	+	1	0
+	+	2	0
+
+> ~/holbertonschool-web_back_end/ES6_data_manipulation/7-main.js
+	*	1721760540	0
+	"	1	0
+	^	1	0
+	.	2	0
+	+	6	0
+	+	1	0
+	+	2	0
+
+> ~/holbertonschool-web_back_end/ES6_data_manipulation/6-main.js
+	*	1721758160	0
+	"	3	51
+	^	3	52
+	.	4	0
+	+	3	52
+	+	1	0
+	+	2	0
+	+	4	0
+
+> ~/holbertonschool-web_back_end/ES6_data_manipulation/6-set.js
+	*	1721758140	0
+	"	5	27
+	^	5	28
+	.	6	0
+	+	6	0
+
+> ~/holbertonschool-web_back_end/ES6_data_manipulation/5-main.js
+	*	1721758080	0
+	"	1	0
+	^	1	0
+	.	2	0
+	+	4	0
+	+	1	0
+	+	2	0
+
+> ~/holbertonschool-web_back_end/ES6_data_manipulation/5-typed_arrays.js
+	*	1721758058	0
+	"	13	35
+	^	13	36
+	.	14	0
+	+	14	0
+
+> ~/holbertonschool-web_back_end/ES6_data_manipulation/4-update_grade_by_city.js
+	*	1721758002	0
+	"	11	0
+	^	11	1
+	.	12	0
+	+	22	0
+	+	12	0
+
+> ~/holbertonschool-web_back_end/ES6_data_manipulation/4-main.js
+	*	1721757548	0
+	"	7	104
+	^	7	105
+	.	8	0
+	+	8	0
+
+> ~/holbertonschool-web_back_end/ES6_data_manipulation/3-main.js
+	*	1721757301	0
+	"	8	18
+	^	8	19
+	.	9	0
+	+	9	0
+
+> ~/holbertonschool-web_back_end/ES6_data_manipulation/3-get_ids_sum.js
+	*	1721757287	0
+	"	3	0
+	^	3	1
+	.	4	0
+	+	4	0
+
+> ~/holbertonschool-web_back_end/ES6_data_manipulation/2-main.js
+	*	1721757213	0
+	"	7	61
+	^	7	62
+	.	8	0
+	+	7	62
+	+	8	0
+
+> ~/holbertonschool-web_back_end/ES6_data_manipulation/2-get_students_by_loc.js
+	*	1721757195	0
+	"	3	0
+	^	3	1
+	.	4	0
+	+	4	0
+
+> ~/holbertonschool-web_back_end/ES6_data_manipulation/1-get_list_student_ids.js
+	*	1721756849	0
+	"	6	0
+	^	6	1
+	.	7	0
+	+	7	0
+
+> ~/holbertonschool-web_back_end/ES6_data_manipulation/0-get_list_students.js
+	*	1721756316	0
+	"	5	61
+	^	5	62
+	.	5	61
+	+	8	0
+	+	5	61
+
+> ~/holbertonschool-web_back_end/ES6_data_manipulation/README.md
+	*	1721755039	0
+	"	1	20
+	^	1	21
+	.	1	21
+	+	1	21
+
+> ~/holbertonschool-web_back_end/ES6_basic/12-createReportObject.js
+	*	1721396542	0
+	"	10	0
+	^	10	1
+	.	10	0
+	+	10	0
+
+> ~/holbertonschool-web_back_end/ES6_basic/11-createEmployeesObject.js
+	*	1721396468	0
+	"	5	0
+	^	5	1
+	.	6	0
+	+	6	0
+
+> ~/holbertonschool-web_back_end/ES6_basic/10-loops.js
+	*	1721396407	0
+	"	7	0
+	^	7	1
+	.	8	0
+	+	8	0
+	+	1	171
+	+	1	0
+	+	1	69
+	+	8	0
+	+	1	155
+	+	8	0
+
+> ~/holbertonschool-web_back_end/ES6_basic/9-getFullBudget.js
+	*	1721396134	0
+	"	1	47
+	^	1	48
+	.	1	48
+	+	17	0
+	+	1	48
+
+> ~/holbertonschool-web_back_end/ES6_basic/8-getBudgetCurrentYear.js
+	*	1721395963	0
+	"	15	0
+	^	15	1
+	.	16	0
+	+	15	1
+	+	16	0
+
+> ~/holbertonschool-web_back_end/ES6_basic/7-getBudgetObject.js
+	*	1721395729	0
+	"	9	0
+	^	9	1
+	.	10	0
+	+	10	0
+
+> ~/holbertonschool-web_back_end/ES6_basic/6-string-interpolation.js
+	*	1721395631	0
+	"	10	0
+	^	10	1
+	.	11	0
+	+	10	1
+	+	11	0
+
+> ~/holbertonschool-web_back_end/ES6_basic/5-spread-operator.js
+	*	1721395523	0
+	"	3	0
+	^	3	1
+	.	4	0
+	+	4	0
+
+> ~/holbertonschool-web_back_end/ES6_basic/4-rest-parameter.js
+	*	1721359674	0
+	"	3	0
+	^	3	1
+	.	3	0
+	+	3	0
+
+> ~/holbertonschool-web_back_end/ES6_basic/3-default-parameter.js
+	*	1721359638	0
+	"	3	0
+	^	3	1
+	.	3	0
+	+	3	0
+
+> ~/holbertonschool-web_back_end/ES6_basic/2-arrow.js
+	*	1721359510	0
+	"	8	0
+	^	8	1
+	.	8	0
+	+	8	0
+
+> ~/holbertonschool-web_back_end/ES6_basic/1-block-scoped.js
+	*	1721359394	0
+	"	13	0
+	^	13	1
+	.	13	0
+	+	1	203
+	+	13	0
+
+> ~/holbertonschool-web_back_end/ES6_basic/README.md
+	*	1721359261	0
+	"	1	9
+	^	1	10
+	.	1	9
+	+	1	9
+
+> ~/holbertonschool-web_back_end/ES6_basic/0-constants.js
+	*	1721359228	0
+	"	1	0
+	^	1	0
+	.	2	0
+	+	1	17
+	+	28	1
+	+	1	17
+	+	14	1
+	+	15	0
+	+	1	0
+	+	2	0
+
+> ~/holbertonschool-web_back_end/ES6_classes/6-sky_high.js
+	*	1721359111	0
+	"	18	0
+	^	18	1
+	.	18	0
+	+	46	1
+	+	47	0
+	+	43	0
+	+	40	0
+	+	34	0
+	+	18	0
+
+> ~/holbertonschool-web_back_end/ES6_classes/9-hoisting.js
+	*	1721359040	0
+	"	47	29
+	^	47	30
+	.	47	29
+	+	136	0
+	+	91	81
+	+	92	0
+	+	47	29
+
+> ~/holbertonschool-web_back_end/ES6_classes/4-pricing.js
+	*	1721358994	0
+	"	54	0
+	^	54	1
+	.	54	0
+	+	1	17
+	+	165	1
+	+	166	0
+	+	109	1
+	+	54	0
+
+> ~/holbertonschool-web_back_end/ES6_classes/3-currency.js
+	*	1721358881	0
+	"	44	0
+	^	44	1
+	.	44	0
+	+	84	0
+	+	1	0
+	+	50	0
+	+	58	0
+	+	66	0
+	+	70	0
+	+	44	0
+
+> ~/holbertonschool-web_back_end/ES6_classes/2-hbtn_course.js
+	*	1721358714	0
+	"	56	0
+	^	56	1
+	.	56	0
+	+	170	1
+	+	171	0
+	+	113	1
+	+	114	0
+	+	56	0
+
+> ~/holbertonschool-web_back_end/ES6_classes/0-classroom.js
+	*	1721358655	0
+	"	5	0
+	^	5	1
+	.	5	0
+	+	1	129
+	+	1	393
+	+	6	0
+	+	1	32
+	+	5	0
+
+> ~/holbertonschool-web_back_end/ES6_classes/10-main.js
+	*	1721355287	0
+	"	9	2
+	^	9	3
+	.	10	0
+	+	1	30
+	+	1	519
+	+	1	244
+	+	23	0
+	+	22	1
+	+	23	0
+	+	16	3
+	+	17	0
+	+	10	0
+
+> ~/holbertonschool-web_back_end/ES6_classes/10-car.js
+	*	1721355253	0
+	"	19	0
+	^	19	1
+	.	19	0
+	+	1	451
+	+	20	0
+	+	1	36
+	+	19	0
+
+> ~/holbertonschool-web_back_end/ES6_classes/Implement
+	*	1721351968	0
+	"	1	0
+	^	1	0
+
+> ~/holbertonschool-web_back_end/ES6_classes/8-main.js
+	*	1721350507	0
+	"	6	0
+	^	6	0
+	.	5	51
+	+	5	51
+
+> ~/holbertonschool-web_back_end/ES6_classes/8-hbtn_class.js
+	*	1721350495	0
+	"	14	0
+	^	14	1
+	.	15	0
+	+	14	1
+	+	15	0
+
+> ~/holbertonschool-web_back_end/ES6_classes/7-main.js
+	*	1721348793	0
+	"	6	0
+	^	6	0
+	.	5	34
+	+	5	34
+
+> ~/holbertonschool-web_back_end/ES6_classes/7-airport.js
+	*	1721348781	0
+	"	10	0
+	^	10	1
+	.	11	0
+	+	10	1
+	+	11	0
+
+> ~/holbertonschool-web_back_end/ES6_classes/6-main.js
+	*	1721348704	0
+	"	7	0
+	^	7	0
+	.	6	49
+	+	6	49
+
+> ~/holbertonschool-web_back_end/ES6_classes/5-building.js
+	*	1721348568	0
+	"	23	0
+	^	23	1
+	.	23	0
+	+	62	24
+	+	63	0
+	+	42	24
+	+	1	387
+	+	24	0
+	+	1	363
+	+	23	0
+
+> ~/holbertonschool-web_back_end/ES6_classes/5-main.js
+	*	1721346252	0
+	"	23	0
+	^	23	0
+	.	22	85
+	+	22	85
+
+> ~/holbertonschool-web_back_end/ES6_classes/4-main.js
+	*	1721346161	0
+	"	10	0
+	^	10	0
+	.	9	44
+	+	9	44

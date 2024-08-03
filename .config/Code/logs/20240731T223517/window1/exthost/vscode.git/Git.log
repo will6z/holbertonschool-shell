@@ -1,0 +1,21 @@
+2024-07-31 22:35:35.707 [info] Log level: Info
+2024-07-31 22:35:35.707 [info] Validating found git in: "git"
+2024-07-31 22:35:35.707 [info] Using git "2.39.2" from "git"
+2024-07-31 22:35:35.707 [info] > git rev-parse --show-toplevel [148ms]
+2024-07-31 22:35:35.707 [info] > git rev-parse --git-dir --git-common-dir [2136ms]
+2024-07-31 22:35:35.707 [info] Open repository: /home/will/holbertonschool-web_back_end
+2024-07-31 22:35:35.707 [info] > git check-ignore -v -z --stdin [74ms]
+2024-07-31 22:35:35.707 [info] > git rev-parse --show-toplevel [291ms]
+2024-07-31 22:35:35.707 [info] > git config --get commit.template [343ms]
+2024-07-31 22:35:35.793 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [31ms]
+2024-07-31 22:35:35.894 [info] > git status -z -uall [52ms]
+2024-07-31 22:35:36.059 [info] > git merge-base refs/heads/main refs/remotes/origin/main [132ms]
+2024-07-31 22:35:36.154 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [39ms]
+2024-07-31 22:35:36.182 [info] > git config --get commit.template [132ms]
+2024-07-31 22:35:36.241 [info] > git diff --name-status -z --diff-filter=ADMR eb41ad4b89c5eaa5edec62b5ea218eca8fbb5b1b...refs/remotes/origin/main [60ms]
+2024-07-31 22:35:36.278 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [61ms]
+2024-07-31 22:35:36.383 [info] > git status -z -uall [56ms]
+2024-07-31 22:35:37.321 [info] > git check-ignore -v -z --stdin [41ms]
+2024-07-31 22:35:45.374 [info] > git show --textconv :ES6_classes/README.md [77ms]
+2024-07-31 22:35:45.379 [info] > git ls-files --stage -- /home/will/holbertonschool-web_back_end/ES6_classes/README.md [23ms]
+2024-07-31 22:35:45.434 [info] > git cat-file -s 5dd2eac2e98505c80d262d40fb5ff2ecf24c774a [22ms]

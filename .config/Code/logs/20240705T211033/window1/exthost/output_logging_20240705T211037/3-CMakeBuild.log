@@ -1,0 +1,4 @@
+[proc] Executing command: cmake --version
+[proc] The command: cmake --version failed with error: Error: spawn cmake ENOENT
+[proc] Executing command: cmake -E capabilities
+[proc] The command: cmake -E capabilities failed with error: Error: spawn cmake ENOENT

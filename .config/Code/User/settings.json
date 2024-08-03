@@ -1,0 +1,7 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "cmake.configureOnOpen": true,
+    "cmake.showOptionsMovedNotification": false,
+    "git.openRepositoryInParentFolders": "always",
+    "files.autoSave": "afterDelay"
+}

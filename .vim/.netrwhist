@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/will/holbertonschool-higher_level_programming/python-if_else_loops_functions'
+let g:netrw_dirhist_1='/home/will/hbnb-evolution-1/user_management'
+let g:netrw_dirhist_0='/home/will/hbnb-evolution-1/models'
+let g:netrw_dirhist_9='/home/will/holbertonschool-higher_level_programming'
+let g:netrw_dirhist_8='/home/will/holbertonschool-chatgpt-introduction/debugging/print_arguments.py'
+let g:netrw_dirhist_7='/home/will/holbertonschool-chatgpt-introduction/debugging'
+let g:netrw_dirhist_6='/home/will/holbertonschool-simple_shell'
+let g:netrw_dirhist_5='/home/will/holbertonschool-low_level_programming/function_pointers'
+let g:netrw_dirhist_4='/home/will/holbertonschool-low_level_programming/structures_typedef'
+let g:netrw_dirhist_3='/home/will/holbertonschool-low_level_programming/function_pointers'

@@ -1,0 +1,10 @@
+2024-07-31 23:23:51.898 [info] Started local extension host with pid 2092.
+2024-07-31 23:23:52.983 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-07-31 23:23:53.837 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-07-31 23:24:05.007 [info] [perf] Render performance baseline is 149ms
+2024-08-01 07:09:55.208 [warning] Failed to fetch chat participant registry XHR failed
+2024-08-01 07:55:33.411 [warning] Failed to fetch chat participant registry XHR failed
+2024-08-01 08:07:24.503 [warning] Failed to fetch chat participant registry XHR failed
+2024-08-01 08:19:30.451 [warning] Failed to fetch chat participant registry XHR failed
+2024-08-01 08:43:37.321 [warning] Failed to fetch chat participant registry XHR failed
+2024-08-02 19:56:45.660 [warning] Failed to fetch chat participant registry XHR failed

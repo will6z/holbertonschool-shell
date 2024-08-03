@@ -1,0 +1,133 @@
+2024-07-19T03:16:09.971Z [debug] [main] Safe constructing new CMakeProject instance
+2024-07-19T03:16:09.973Z [debug] [variant] Constructing VariantManager
+2024-07-19T03:16:09.976Z [debug] [main] Constructing new CMakeProject instance
+2024-07-19T03:16:09.978Z [debug] [main] Starting CMake Tools second-phase init
+2024-07-19T03:16:09.980Z [debug] [expand] expanded ${workspaceFolder}
+2024-07-19T03:16:10.127Z [info] [variant] Loaded new set of variants
+2024-07-19T03:16:10.140Z [debug] [kit] Reading kits file /home/will/.local/share/CMakeTools/cmake-tools-kits.json
+2024-07-19T03:16:10.182Z [info] [kit] Successfully loaded 1 kits from /home/will/.local/share/CMakeTools/cmake-tools-kits.json
+2024-07-19T03:16:10.194Z [debug] [kit] Not reading non-existent kits file: /home/will/holbertonschool-web_back_end/ES6_classes/.vscode/cmake-kits.json
+2024-07-19T03:16:10.208Z [debug] [main] CMakeProject instance initialization complete.
+2024-07-19T03:16:10.383Z [debug] [main] Not starting CMake driver: no kit selected
+ variants
+2024-05-06T17:37:14.552Z [debug] [kit] Not reading non-existent kits file: /home/will/.local/share/CMakeTools/cmake-tools-kits.json
+2024-05-06T17:37:14.553Z [debug] [expand] expanding cmake
+2024-05-06T17:37:14.559Z [debug] [kit] Not reading non-existent kits file: /home/will/holbertonschool-chatgpt-introduction/debugging/print_arguments.py/.vscode/cmake-kits.json
+2024-05-06T17:37:14.560Z [debug] [expand] expanding /home/will/holbertonschool-chatgpt-introduction/debugging/print_arguments.py
+2024-05-06T17:37:14.561Z [error] [rollbar] "sourceDirectory" is not a directory {"sourceDirectory":"/home/will/holbertonschool-chatgpt-introduction/debugging/print_arguments.py"}
+2024-05-06T17:37:14.566Z [debug] [main] CMakeProject instance initialization complete.
+2024-05-06T17:37:14.616Z [info] [kit] Detected kits definition version change from undefined to 2. Silently scanning for kits.
+2024-05-06T17:37:14.617Z [debug] [expand] expanding cmake
+2024-05-06T17:37:14.674Z [debug] [kitsController] Rescanning for kits
+2024-05-06T17:37:14.675Z [debug] [kit] Scanning for Kits on system
+2024-05-06T17:37:14.678Z [debug] [kit] Scanning directory /usr/bin for compilers
+2024-05-06T17:37:14.679Z [debug] [kit] Scanning directory /usr/local/bin for compilers
+2024-05-06T17:37:14.679Z [debug] [kit] Scanning directory /bin for compilers
+2024-05-06T17:37:14.680Z [debug] [kit] Scanning directory /usr/local/games for compilers
+2024-05-06T17:37:14.680Z [debug] [kit] Scanning directory /usr/games for compilers
+2024-05-06T17:37:14.680Z [debug] [kit] Skipping scan of not existing path undefined\LLVM\bin
+2024-05-06T17:37:14.681Z [debug] [kit] Found 0 kits in directory undefined\LLVM\bin
+2024-05-06T17:37:14.681Z [debug] [kit] Skipping scan of not existing path undefined\msys64\mingw32\bin
+2024-05-06T17:37:14.681Z [debug] [kit] Found 0 kits in directory undefined\msys64\mingw32\bin
+2024-05-06T17:37:14.682Z [debug] [kit] Skipping scan of not existing path undefined\msys64\mingw64\bin
+2024-05-06T17:37:14.682Z [debug] [kit] Found 0 kits in directory undefined\msys64\mingw64\bin
+2024-05-06T17:37:14.682Z [debug] [kit] Skipping scan of not existing path undefined\msys64\clang32\bin
+2024-05-06T17:37:14.682Z [debug] [kit] Found 0 kits in directory undefined\msys64\clang32\bin
+2024-05-06T17:37:14.683Z [debug] [kit] Skipping scan of not existing path undefined\msys64\clang64\bin
+2024-05-06T17:37:14.683Z [debug] [kit] Found 0 kits in directory undefined\msys64\clang64\bin
+2024-05-06T17:37:14.683Z [debug] [kit] Skipping scan of not existing path undefined\msys64\clangarm64\bin
+2024-05-06T17:37:14.683Z [debug] [kit] Found 0 kits in directory undefined\msys64\clangarm64\bin
+2024-05-06T17:37:14.684Z [debug] [kit] Skipping scan of not existing path undefined\msys64\ucrt64\bin
+2024-05-06T17:37:14.684Z [debug] [kit] Found 0 kits in directory undefined\msys64\ucrt64\bin
+2024-05-06T17:37:14.694Z [debug] [kit] Testing GCC binary: /usr/bin/c89-gcc
+2024-05-06T17:37:14.695Z [info] [proc] Executing command: /usr/bin/c89-gcc -v
+2024-05-06T17:37:14.703Z [debug] [kit] Testing GCC binary: /usr/bin/c99-gcc
+2024-05-06T17:37:14.704Z [info] [proc] Executing command: /usr/bin/c99-gcc -v
+2024-05-06T17:37:14.724Z [debug] [kit] Testing GCC binary: /usr/bin/gcc
+2024-05-06T17:37:14.725Z [info] [proc] Executing command: /usr/bin/gcc -v
+2024-05-06T17:37:14.732Z [debug] [kit] Testing GCC binary: /usr/bin/gcc-12
+2024-05-06T17:37:14.736Z [info] [proc] Executing command: /usr/bin/gcc-12 -v
+2024-05-06T17:37:14.788Z [debug] [kit] Testing GCC binary: /usr/bin/x86_64-linux-gnu-gcc
+2024-05-06T17:37:14.790Z [info] [proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc -v
+2024-05-06T17:37:14.796Z [debug] [kit] Testing GCC binary: /usr/bin/x86_64-linux-gnu-gcc-12
+2024-05-06T17:37:14.798Z [info] [proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc-12 -v
+2024-05-06T17:37:14.813Z [debug] [kit] Found 0 kits in directory /usr/local/bin
+2024-05-06T17:37:14.817Z [debug] [kit] Testing GCC binary: /bin/c89-gcc
+2024-05-06T17:37:14.817Z [info] [proc] Executing command: /bin/c89-gcc -v
+2024-05-06T17:37:14.824Z [debug] [kit] Testing GCC binary: /bin/c99-gcc
+2024-05-06T17:37:14.825Z [info] [proc] Executing command: /bin/c99-gcc -v
+2024-05-06T17:37:14.839Z [debug] [kit] Testing GCC binary: /bin/gcc
+2024-05-06T17:37:14.840Z [info] [proc] Executing command: /bin/gcc -v
+2024-05-06T17:37:14.846Z [debug] [kit] Testing GCC binary: /bin/gcc-12
+2024-05-06T17:37:14.847Z [info] [proc] Executing command: /bin/gcc-12 -v
+2024-05-06T17:37:14.878Z [debug] [kit] Testing GCC binary: /bin/x86_64-linux-gnu-gcc
+2024-05-06T17:37:14.879Z [info] [proc] Executing command: /bin/x86_64-linux-gnu-gcc -v
+2024-05-06T17:37:14.884Z [debug] [kit] Testing GCC binary: /bin/x86_64-linux-gnu-gcc-12
+2024-05-06T17:37:14.885Z [info] [proc] Executing command: /bin/x86_64-linux-gnu-gcc-12 -v
+2024-05-06T17:37:14.899Z [debug] [kit] Found 0 kits in directory /usr/local/games
+2024-05-06T17:37:14.900Z [debug] [kit] Found 0 kits in directory /usr/games
+2024-05-06T17:37:14.935Z [debug] [kit] Detected GCC compiler: /bin/x86_64-linux-gnu-gcc-12
+2024-05-06T17:37:14.939Z [debug] [kit] Detected GCC compiler: /bin/x86_64-linux-gnu-gcc
+2024-05-06T17:37:14.943Z [debug] [kit] Detected GCC compiler: /bin/gcc-12
+2024-05-06T17:37:14.946Z [debug] [kit] Detected GCC compiler: /bin/gcc
+2024-05-06T17:37:14.949Z [debug] [kit] Detected GCC compiler: /bin/c99-gcc
+2024-05-06T17:37:14.952Z [debug] [kit] Detected GCC compiler: /bin/c89-gcc
+2024-05-06T17:37:14.955Z [debug] [kit] Detected GCC compiler: /usr/bin/x86_64-linux-gnu-gcc-12
+2024-05-06T17:37:14.958Z [debug] [kit] Detected GCC compiler: /usr/bin/x86_64-linux-gnu-gcc
+2024-05-06T17:37:14.961Z [debug] [kit] Detected GCC compiler: /usr/bin/gcc-12
+2024-05-06T17:37:14.964Z [debug] [kit] Detected GCC compiler: /usr/bin/gcc
+2024-05-06T17:37:14.966Z [debug] [kit] Detected GCC compiler: /usr/bin/c99-gcc
+2024-05-06T17:37:14.969Z [debug] [kit] Detected GCC compiler: /usr/bin/c89-gcc
+2024-05-06T17:37:14.973Z [debug] [main] Not starting CMake driver: no kit selected
+2024-05-06T17:37:15.016Z [debug] [kit] Testing GCC binary: /bin/x86_64-linux-gnu-gcc
+2024-05-06T17:37:15.019Z [info] [proc] Executing command: /bin/x86_64-linux-gnu-gcc -v
+2024-05-06T17:37:15.036Z [debug] [kit] Testing GCC binary: /bin/x86_64-linux-gnu-gcc
+2024-05-06T17:37:15.037Z [info] [proc] Executing command: /bin/x86_64-linux-gnu-gcc -v
+2024-05-06T17:37:15.049Z [debug] [kit] Testing GCC binary: /bin/gcc
+2024-05-06T17:37:15.050Z [info] [proc] Executing command: /bin/gcc -v
+2024-05-06T17:37:15.060Z [debug] [kit] Testing GCC binary: /bin/gcc
+2024-05-06T17:37:15.063Z [info] [proc] Executing command: /bin/gcc -v
+2024-05-06T17:37:15.076Z [debug] [kit] Testing GCC binary: /bin/c99-gcc
+2024-05-06T17:37:15.077Z [info] [proc] Executing command: /bin/c99-gcc -v
+2024-05-06T17:37:15.087Z [debug] [kit] Testing GCC binary: /bin/c89-gcc
+2024-05-06T17:37:15.089Z [info] [proc] Executing command: /bin/c89-gcc -v
+2024-05-06T17:37:15.113Z [debug] [kit] Testing GCC binary: /usr/bin/x86_64-linux-gnu-gcc
+2024-05-06T17:37:15.114Z [info] [proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc -v
+2024-05-06T17:37:15.122Z [debug] [kit] Testing GCC binary: /usr/bin/x86_64-linux-gnu-gcc
+2024-05-06T17:37:15.123Z [info] [proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc -v
+2024-05-06T17:37:15.130Z [debug] [kit] Testing GCC binary: /usr/bin/gcc
+2024-05-06T17:37:15.132Z [info] [proc] Executing command: /usr/bin/gcc -v
+2024-05-06T17:37:15.139Z [debug] [kit] Testing GCC binary: /usr/bin/gcc
+2024-05-06T17:37:15.140Z [info] [proc] Executing command: /usr/bin/gcc -v
+2024-05-06T17:37:15.146Z [debug] [kit] Testing GCC binary: /usr/bin/c99-gcc
+2024-05-06T17:37:15.147Z [info] [proc] Executing command: /usr/bin/c99-gcc -v
+2024-05-06T17:37:15.153Z [debug] [kit] Testing GCC binary: /usr/bin/c89-gcc
+2024-05-06T17:37:15.154Z [info] [proc] Executing command: /usr/bin/c89-gcc -v
+2024-05-06T17:37:15.172Z [debug] [kit] Detected GCC compiler: /usr/bin/c89-gcc
+2024-05-06T17:37:15.175Z [debug] [kit] Detected GCC compiler: /usr/bin/c99-gcc
+2024-05-06T17:37:15.178Z [debug] [kit] Detected GCC compiler: /usr/bin/gcc
+2024-05-06T17:37:15.181Z [debug] [kit] Detected GCC compiler: /usr/bin/gcc
+2024-05-06T17:37:15.184Z [debug] [kit] Detected GCC compiler: /usr/bin/x86_64-linux-gnu-gcc
+2024-05-06T17:37:15.187Z [debug] [kit] Detected GCC compiler: /usr/bin/x86_64-linux-gnu-gcc
+2024-05-06T17:37:15.190Z [debug] [kit] Detected GCC compiler: /bin/c89-gcc
+2024-05-06T17:37:15.193Z [debug] [kit] Detected GCC compiler: /bin/c99-gcc
+2024-05-06T17:37:15.196Z [debug] [kit] Detected GCC compiler: /bin/gcc
+2024-05-06T17:37:15.199Z [debug] [kit] Detected GCC compiler: /bin/gcc
+2024-05-06T17:37:15.201Z [debug] [kit] Detected GCC compiler: /bin/x86_64-linux-gnu-gcc
+2024-05-06T17:37:15.204Z [debug] [kit] Detected GCC compiler: /bin/x86_64-linux-gnu-gcc
+2024-05-06T17:37:15.209Z [debug] [kit] Found 6 kits in directory /usr/bin
+2024-05-06T17:37:15.211Z [debug] [kit] Found 6 kits in directory /bin
+2024-05-06T17:37:15.212Z [info] [kit] Found Kit (trusted): GCC 12.2.0 x86_64-linux-gnu
+2024-05-06T17:37:15.212Z [info] [kit] Found Kit (trusted): GCC 12.2.0 x86_64-linux-gnu
+2024-05-06T17:37:15.212Z [info] [kit] Found Kit (trusted): GCC 12.2.0 x86_64-linux-gnu
+2024-05-06T17:37:15.213Z [info] [kit] Found Kit (trusted): GCC 12.2.0 x86_64-linux-gnu
+2024-05-06T17:37:15.213Z [info] [kit] Found Kit (trusted): GCC 12.2.0 x86_64-linux-gnu
+2024-05-06T17:37:15.213Z [info] [kit] Found Kit (trusted): GCC 12.2.0 x86_64-linux-gnu
+2024-05-06T17:37:15.213Z [info] [kit] Found Kit (trusted): GCC 12.2.0 x86_64-linux-gnu
+2024-05-06T17:37:15.215Z [info] [kit] Found Kit (trusted): GCC 12.2.0 x86_64-linux-gnu
+2024-05-06T17:37:15.215Z [info] [kit] Found Kit (trusted): GCC 12.2.0 x86_64-linux-gnu
+2024-05-06T17:37:15.215Z [info] [kit] Found Kit (trusted): GCC 12.2.0 x86_64-linux-gnu
+2024-05-06T17:37:15.216Z [info] [kit] Found Kit (trusted): GCC 12.2.0 x86_64-linux-gnu
+2024-05-06T17:37:15.216Z [info] [kit] Found Kit (trusted): GCC 12.2.0 x86_64-linux-gnu
+2024-05-06T17:37:15.218Z [debug] [kitsController] Saving kits to /home/will/.local/share/CMakeTools/cmake-tools-kits.json
+2024-05-06T17:37:15.218Z [debug] [kitsController] Saving new kits to /home/will/.local/share/CMakeTools/cmake-tools-kits.json

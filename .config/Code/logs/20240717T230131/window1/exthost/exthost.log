@@ -1,0 +1,25 @@
+2024-07-18 19:10:51.106 [info] Extension host with pid 8368 started
+2024-07-18 19:10:51.106 [info] Skipping acquiring lock for /home/will/.config/Code/User/workspaceStorage/2f4b4f09b0bdf581c238abfcf8a4e4ce.
+2024-07-18 19:10:51.149 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-07-18 19:10:51.176 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-18 19:10:51.193 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-07-18 19:10:51.229 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-07-18 19:10:52.169 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-07-18 19:10:52.349 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-18 19:10:52.381 [info] ExtensionService#_doActivateExtension etmoffat.pip-packages, startup: true, activationEvent: '*'
+2024-07-18 19:10:53.088 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-18 19:10:53.336 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-18 19:10:53.604 [info] Eager extensions activated
+2024-07-18 19:10:53.942 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-18 19:10:53.957 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-18 19:10:53.993 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2024-07-18 19:10:54.003 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-07-18 19:10:54.277 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2024-07-18 19:10:55.270 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-07-18 19:11:53.871 [info] ExtensionService#_doActivateExtension elltg.elltg-npm-script-run, startup: false, activationEvent: 'onCommand:elltg-npm-script-run.runNpmScriptCurrentTerminal'
+2024-07-18 19:12:17.557 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-07-18 19:12:18.732 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2024-07-18 23:16:09.486 [info] ExtensionService#_doActivateExtension vscode.grunt, startup: false, activationEvent: 'onTaskType:grunt'
+2024-07-18 23:16:09.507 [info] ExtensionService#_doActivateExtension vscode.gulp, startup: false, activationEvent: 'onTaskType:gulp'
+2024-07-18 23:16:09.514 [info] ExtensionService#_doActivateExtension vscode.jake, startup: false, activationEvent: 'onTaskType:jake'
+2024-07-18 23:16:09.523 [info] ExtensionService#_doActivateExtension ms-vscode.cmake-tools, startup: false, activationEvent: 'onTaskType:cmake'

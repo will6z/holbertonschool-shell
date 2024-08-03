@@ -1,0 +1,14 @@
+2024-06-24 14:53:13.016 [info] Getting Manifest... usernamehw.errorlens
+2024-06-24 14:53:13.356 [info] Installing extension: usernamehw.errorlens vscode-userdata:/home/will/.vscode/extensions/extensions.json
+2024-06-24 14:53:19.561 [info] Extension signature verification result for usernamehw.errorlens: Success. Executed: true. Duration: 4304ms.
+2024-06-24 14:53:19.644 [info] Extracted extension to file:///home/will/.vscode/extensions/usernamehw.errorlens-3.20.0: usernamehw.errorlens
+2024-06-24 14:53:19.656 [info] Renamed to /home/will/.vscode/extensions/usernamehw.errorlens-3.20.0
+2024-06-24 14:53:19.798 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/will/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/will/.vscode/extensions/extensions.json.vsctmp'
+    at c.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-06-24 14:53:19.805 [info] Marked extension as uninstalled usernamehw.errorlens-3.18.0
+2024-06-24 14:53:19.870 [info] Extension installed successfully: usernamehw.errorlens vscode-userdata:/home/will/.vscode/extensions/extensions.json
