@@ -18,15 +18,17 @@ $
 
 # Command Line History (newest to oldest):
 :x
-|2,0,1722644238,,"x"
-:X
-|2,0,1722644224,,"X"
+|2,0,1726524684,,"x"
 :q!
-|2,0,1722272770,,"q!"
+|2,0,1724961815,,"q!"
+:x!
+|2,0,1724961810,,"x!"
 :Q!
-|2,0,1721351945,,"Q!"
+|2,0,1723757406,,"Q!"
 :q
-|2,0,1721271081,,"q"
+|2,0,1723756248,,"q"
+:X
+|2,0,1723756101,,"X"
 :exit
 |2,0,1716412286,,"exit"
 :d
@@ -134,234 +136,963 @@ $
 	
 |3,0,4,0,18,0,1708618298,"	int n;","	int m;","","	srand(time(0));","	n = rand() - RAND_MAX / 2;","	m = n % 10;","	if (m > 5)","	{","	printf(\"Last digit of %d is %d  and is greater than 5\\n\", n, m);","	}","	else if (m < 6 && m != 0)","	{","	printf(\"Last digit of %d is $d and is less than 6 and not 0\\n\", n, m);","	{","	else","	}","	",""
 ""-	CHAR	0
-	i
-|3,1,36,0,1,0,1721857461,"i"
+	}
+|3,1,36,0,1,0,1724610669,"}"
 
 # File marks:
-'0  1  0  ~/holbertonschool-hbnb-client/03-frontend/mock-api/app.py
-|4,48,1,0,1722644238,"~/holbertonschool-hbnb-client/03-frontend/mock-api/app.py"
-'1  1  0  ~/holbertonschool-hbnb-client/03-frontend/mock-api/config.py
-|4,49,1,0,1722644227,"~/holbertonschool-hbnb-client/03-frontend/mock-api/config.py"
-'2  1  0  ~/holbertonschool-hbnb-client/03-frontend/mock-api/requirements.txt
-|4,50,1,0,1722644215,"~/holbertonschool-hbnb-client/03-frontend/mock-api/requirements.txt"
-'3  34  5  ~/holbertonschool-hbnb-client/03-frontend/index.html
-|4,51,34,5,1722644171,"~/holbertonschool-hbnb-client/03-frontend/index.html"
-'4  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,52,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
-'5  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,53,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
-'6  101  0  ~/holbertonschool-hbnb-client/03-frontend/styles.css
-|4,54,101,0,1722638993,"~/holbertonschool-hbnb-client/03-frontend/styles.css"
-'7  33  6  ~/holbertonschool-hbnb-client/03-frontend/add_review.html
-|4,55,33,6,1722638969,"~/holbertonschool-hbnb-client/03-frontend/add_review.html"
-'8  44  6  ~/holbertonschool-hbnb-client/03-frontend/place.html
-|4,56,44,6,1722638954,"~/holbertonschool-hbnb-client/03-frontend/place.html"
-'9  34  6  ~/holbertonschool-hbnb-client/03-frontend/index.html
-|4,57,34,6,1722638943,"~/holbertonschool-hbnb-client/03-frontend/index.html"
+'0  2  0  ~/holbertonschool-network/basics_0/0-OSI_model
+|4,48,2,0,1726524684,"~/holbertonschool-network/basics_0/0-OSI_model"
+'1  1  7  ~/holbertonschool-network/basics_0/README.md
+|4,49,1,7,1726524561,"~/holbertonschool-network/basics_0/README.md"
+'2  1  22  ~/holbertonschool-network/README.md
+|4,50,1,22,1726524536,"~/holbertonschool-network/README.md"
+'3  12  37  ~/holbertonschool-softy-pinko-docker/task3/back-end/api.py
+|4,51,12,37,1724962891,"~/holbertonschool-softy-pinko-docker/task3/back-end/api.py"
+'4  1  28  ~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html
+|4,52,1,28,1724962805,"~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html"
+'5  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,53,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+'6  10  37  ~/holbertonschool-softy-pinko-docker/task2/back-end/api.py
+|4,54,10,37,1724962496,"~/holbertonschool-softy-pinko-docker/task2/back-end/api.py"
+'7  10  0  ~/holbertonschool-softy-pinko-docker/task2/front-end/softy-pinko-front-end.conf
+|4,55,10,0,1724962440,"~/holbertonschool-softy-pinko-docker/task2/front-end/softy-pinko-front-end.conf"
+'8  10  0  ~/holbertonschool-softy-pinko-docker/task2/front-end/softy-pinko-front-end.con
+|4,56,10,0,1724962349,"~/holbertonschool-softy-pinko-docker/task2/front-end/softy-pinko-front-end.con"
+'9  10  0  ~/holbertonschool-softy-pinko-docker/task2/front-end/nginx
+|4,57,10,0,1724962247,"~/holbertonschool-softy-pinko-docker/task2/front-end/nginx"
 
 # Jumplist (newest first):
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/mock-api/app.py
-|4,39,1,0,1722644238,"~/holbertonschool-hbnb-client/03-frontend/mock-api/app.py"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/mock-api/config.py
-|4,39,1,0,1722644227,"~/holbertonschool-hbnb-client/03-frontend/mock-api/config.py"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/mock-api/config.py
-|4,39,1,0,1722644227,"~/holbertonschool-hbnb-client/03-frontend/mock-api/config.py"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/mock-api/requirements.txt
-|4,39,1,0,1722644215,"~/holbertonschool-hbnb-client/03-frontend/mock-api/requirements.txt"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/mock-api/requirements.txt
-|4,39,1,0,1722644215,"~/holbertonschool-hbnb-client/03-frontend/mock-api/requirements.txt"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/mock-api/requirements.txt
-|4,39,1,0,1722644215,"~/holbertonschool-hbnb-client/03-frontend/mock-api/requirements.txt"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/mock-api/requirements.txt
-|4,39,1,0,1722644215,"~/holbertonschool-hbnb-client/03-frontend/mock-api/requirements.txt"
--'  34  5  ~/holbertonschool-hbnb-client/03-frontend/index.html
-|4,39,34,5,1722644171,"~/holbertonschool-hbnb-client/03-frontend/index.html"
--'  34  5  ~/holbertonschool-hbnb-client/03-frontend/index.html
-|4,39,34,5,1722644171,"~/holbertonschool-hbnb-client/03-frontend/index.html"
--'  34  5  ~/holbertonschool-hbnb-client/03-frontend/index.html
-|4,39,34,5,1722644171,"~/holbertonschool-hbnb-client/03-frontend/index.html"
--'  34  5  ~/holbertonschool-hbnb-client/03-frontend/index.html
-|4,39,34,5,1722644171,"~/holbertonschool-hbnb-client/03-frontend/index.html"
--'  34  5  ~/holbertonschool-hbnb-client/03-frontend/index.html
-|4,39,34,5,1722644171,"~/holbertonschool-hbnb-client/03-frontend/index.html"
--'  34  5  ~/holbertonschool-hbnb-client/03-frontend/index.html
-|4,39,34,5,1722644171,"~/holbertonschool-hbnb-client/03-frontend/index.html"
--'  34  5  ~/holbertonschool-hbnb-client/03-frontend/index.html
-|4,39,34,5,1722644171,"~/holbertonschool-hbnb-client/03-frontend/index.html"
--'  34  5  ~/holbertonschool-hbnb-client/03-frontend/index.html
-|4,39,34,5,1722644171,"~/holbertonschool-hbnb-client/03-frontend/index.html"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,290,2,1722644152,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-|4,39,1,0,1722644144,"~/holbertonschool-hbnb-client/03-frontend/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  290  2  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,290,2,1722644122,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
--'  1  0  ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
-|4,39,1,0,1722644114,"~/holbertonschool-hbnb-client/03-frontend/img/scripts.js"
+-'  2  0  ~/holbertonschool-network/basics_0/0-OSI_model
+|4,39,2,0,1726524684,"~/holbertonschool-network/basics_0/0-OSI_model"
+-'  1  0  ~/holbertonschool-network/basics_0/0-OSI_model
+|4,39,1,0,1726524571,"~/holbertonschool-network/basics_0/0-OSI_model"
+-'  1  7  ~/holbertonschool-network/basics_0/README.md
+|4,39,1,7,1726524561,"~/holbertonschool-network/basics_0/README.md"
+-'  1  7  ~/holbertonschool-network/basics_0/README.md
+|4,39,1,7,1726524561,"~/holbertonschool-network/basics_0/README.md"
+-'  1  22  ~/holbertonschool-network/README.md
+|4,39,1,22,1726524536,"~/holbertonschool-network/README.md"
+-'  1  22  ~/holbertonschool-network/README.md
+|4,39,1,22,1726524536,"~/holbertonschool-network/README.md"
+-'  1  22  ~/holbertonschool-network/README.md
+|4,39,1,22,1726524536,"~/holbertonschool-network/README.md"
+-'  1  22  ~/holbertonschool-network/README.md
+|4,39,1,22,1726524536,"~/holbertonschool-network/README.md"
+-'  12  37  ~/holbertonschool-softy-pinko-docker/task3/back-end/api.py
+|4,39,12,37,1724962891,"~/holbertonschool-softy-pinko-docker/task3/back-end/api.py"
+-'  12  37  ~/holbertonschool-softy-pinko-docker/task3/back-end/api.py
+|4,39,12,37,1724962891,"~/holbertonschool-softy-pinko-docker/task3/back-end/api.py"
+-'  12  37  ~/holbertonschool-softy-pinko-docker/task3/back-end/api.py
+|4,39,12,37,1724962891,"~/holbertonschool-softy-pinko-docker/task3/back-end/api.py"
+-'  12  37  ~/holbertonschool-softy-pinko-docker/task3/back-end/api.py
+|4,39,12,37,1724962891,"~/holbertonschool-softy-pinko-docker/task3/back-end/api.py"
+-'  12  37  ~/holbertonschool-softy-pinko-docker/task3/back-end/api.py
+|4,39,12,37,1724962891,"~/holbertonschool-softy-pinko-docker/task3/back-end/api.py"
+-'  12  37  ~/holbertonschool-softy-pinko-docker/task3/back-end/api.py
+|4,39,12,37,1724962891,"~/holbertonschool-softy-pinko-docker/task3/back-end/api.py"
+-'  12  37  ~/holbertonschool-softy-pinko-docker/task3/back-end/api.py
+|4,39,12,37,1724962891,"~/holbertonschool-softy-pinko-docker/task3/back-end/api.py"
+-'  12  37  ~/holbertonschool-softy-pinko-docker/task3/back-end/api.py
+|4,39,12,37,1724962891,"~/holbertonschool-softy-pinko-docker/task3/back-end/api.py"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task3/back-end/api.py
+|4,39,1,0,1724962885,"~/holbertonschool-softy-pinko-docker/task3/back-end/api.py"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task3/back-end/api.py
+|4,39,1,0,1724962885,"~/holbertonschool-softy-pinko-docker/task3/back-end/api.py"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task3/back-end/api.py
+|4,39,1,0,1724962885,"~/holbertonschool-softy-pinko-docker/task3/back-end/api.py"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task3/back-end/api.py
+|4,39,1,0,1724962885,"~/holbertonschool-softy-pinko-docker/task3/back-end/api.py"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task3/back-end/api.py
+|4,39,1,0,1724962885,"~/holbertonschool-softy-pinko-docker/task3/back-end/api.py"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task3/back-end/api.py
+|4,39,1,0,1724962885,"~/holbertonschool-softy-pinko-docker/task3/back-end/api.py"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task3/back-end/api.py
+|4,39,1,0,1724962885,"~/holbertonschool-softy-pinko-docker/task3/back-end/api.py"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task3/back-end/api.py
+|4,39,1,0,1724962885,"~/holbertonschool-softy-pinko-docker/task3/back-end/api.py"
+-'  1  28  ~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html
+|4,39,1,28,1724962805,"~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html"
+-'  1  28  ~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html
+|4,39,1,28,1724962805,"~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html"
+-'  1  28  ~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html
+|4,39,1,28,1724962805,"~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html"
+-'  1  28  ~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html
+|4,39,1,28,1724962805,"~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html"
+-'  1  28  ~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html
+|4,39,1,28,1724962805,"~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html"
+-'  1  28  ~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html
+|4,39,1,28,1724962805,"~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html"
+-'  1  28  ~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html
+|4,39,1,28,1724962805,"~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html"
+-'  1  28  ~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html
+|4,39,1,28,1724962805,"~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html"
+-'  1  28  ~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html
+|4,39,1,28,1724962805,"~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html"
+-'  1  28  ~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html
+|4,39,1,28,1724962805,"~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html"
+-'  1  28  ~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html
+|4,39,1,28,1724962805,"~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html"
+-'  1  28  ~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html
+|4,39,1,28,1724962805,"~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html"
+-'  1  28  ~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html
+|4,39,1,28,1724962805,"~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html"
+-'  1  28  ~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html
+|4,39,1,28,1724962805,"~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html"
+-'  1  28  ~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html
+|4,39,1,28,1724962805,"~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html"
+-'  1  28  ~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html
+|4,39,1,28,1724962805,"~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  23  24  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,23,24,1724962503,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,1,0,1724962501,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,1,0,1724962501,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,1,0,1724962501,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,1,0,1724962501,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,1,0,1724962501,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,1,0,1724962501,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,1,0,1724962501,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,1,0,1724962501,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,1,0,1724962501,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,1,0,1724962501,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,1,0,1724962501,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,1,0,1724962501,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,1,0,1724962501,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,1,0,1724962501,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,1,0,1724962501,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,1,0,1724962501,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,1,0,1724962501,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,1,0,1724962501,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,1,0,1724962501,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,1,0,1724962501,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,1,0,1724962501,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,1,0,1724962501,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,1,0,1724962501,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,1,0,1724962501,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,1,0,1724962501,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,1,0,1724962501,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,1,0,1724962501,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
+-'  1  0  ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+|4,39,1,0,1724962501,"~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile"
 
 # History of marks within files (newest to oldest):
+
+> ~/holbertonschool-network/basics_0/0-OSI_model
+	*	1726524683	0
+	"	2	0
+	^	2	1
+	.	2	0
+	+	2	0
+
+> ~/holbertonschool-network/basics_0/README.md
+	*	1726524560	0
+	"	1	7
+	^	1	8
+	.	1	7
+	+	1	7
+
+> ~/holbertonschool-network/README.md
+	*	1726524535	0
+	"	1	22
+	^	1	23
+	.	1	22
+	+	1	22
+
+> ~/holbertonschool-softy-pinko-docker/task3/back-end/api.py
+	*	1724962890	0
+	"	12	37
+	^	12	38
+	.	12	37
+	+	12	37
+
+> ~/holbertonschool-softy-pinko-docker/task3/front-end/softy-pinko-front-end/index.html
+	*	1724962804	0
+	"	1	28
+	^	1	30
+	.	1	29
+	+	1	29
+
+> ~/holbertonschool-softy-pinko-docker/task2/back-end/Dockerfile
+	*	1724962502	0
+	"	23	24
+	^	23	25
+	.	23	24
+	+	23	24
+
+> ~/holbertonschool-softy-pinko-docker/task2/back-end/api.py
+	*	1724962495	0
+	"	10	37
+	^	10	38
+	.	10	37
+	+	10	37
+
+> ~/holbertonschool-softy-pinko-docker/task2/front-end/softy-pinko-front-end.conf
+	*	1724962440	0
+	"	10	0
+	^	10	1
+	.	10	0
+	+	10	0
+
+> ~/holbertonschool-softy-pinko-docker/task2/front-end/softy-pinko-front-end.con
+	*	1724962348	0
+	"	10	0
+	^	10	1
+	.	10	0
+	+	10	0
+
+> ~/holbertonschool-softy-pinko-docker/task2/front-end/nginx
+	*	1724962246	0
+	"	10	0
+	^	10	1
+	.	10	0
+	+	10	0
+
+> ~/holbertonschool-softy-pinko-docker/task2/front-end/Dockerfile
+	*	1724962227	0
+	"	7	34
+	^	8	64
+	.	8	63
+	+	8	63
+
+> ~/holbertonschool-softy-pinko-docker/task1/Dockerfile
+	*	1724962153	0
+	"	23	24
+	^	23	25
+	.	23	24
+	+	23	24
+
+> ~/holbertonschool-softy-pinko-docker/task1/apy.py
+	*	1724962143	0
+	"	10	37
+	^	10	38
+	.	10	37
+	+	10	37
+
+> ~/holbertonschool-softy-pinko-docker/task0/Dockerfile
+	*	1724962114	0
+	"	11	27
+	^	11	28
+	.	11	28
+	+	11	28
+
+> ~/holbertonschool-softy-pinko-docker/task0/task1/Dockerfile
+	*	1724961871	0
+	"	1	0
+	^	1	0
+	.	2	0
+	+	36	24
+	+	36	0
+	+	33	0
+	+	15	24
+	+	15	0
+	+	13	0
+	+	11	0
+	+	9	0
+	+	7	0
+	+	5	0
+	+	3	0
+	+	1	0
+	+	2	0
+
+> ~/holbertonschool-softy-pinko-docker/task0/task1/apy.py
+	*	1724961788	0
+	"	10	37
+	^	10	38
+	.	10	37
+	+	10	37
+
+> ~/holbertonschool-softy-pinko-docker/README.md
+	*	1724961661	0
+	"	1	33
+	^	1	34
+	.	1	34
+	+	1	34
+
+> ~/holbertonschool-web_back_end/NoSQL/5-count
+	*	1724613262	0
+	"	1	33
+	^	1	34
+	.	1	39
+	+	2	16
+	+	1	39
+
+> ~/holbertonschool-web_back_end/NoSQL/4-match
+	*	1724613174	0
+	"	2	43
+	^	2	44
+	.	2	43
+	+	2	43
+
+> ~/holbertonschool-web_back_end/NoSQL/3-all
+	*	1724613093	0
+	"	1	21
+	^	1	22
+	.	1	21
+	+	1	21
+
+> ~/holbertonschool-web_back_end/NoSQL/2-insert
+	*	1724612961	0
+	"	1	20
+	^	1	21
+	.	1	20
+	+	2	45
+	+	1	20
+
+> ~/holbertonschool-web_back_end/NoSQL/1-use_or_create_database
+	*	1724612816	0
+	"	1	7
+	^	1	8
+	.	1	8
+	+	2	8
+	+	1	8
+
+> ~/holbertonschool-web_back_end/NoSQL/0-list_databases
+	*	1724612242	0
+	"	1	22
+	^	1	23
+	.	1	22
+	+	1	22
+
+> ~/holbertonschool-web_back_end/NoSQL/README.md
+	*	1724612195	0
+	"	1	0
+	^	1	5
+	.	1	4
+	+	1	4
+
+> ~/holbertonschool-web_back_end/0-list_databases
+	*	1724612139	0
+	"	1	23
+	^	1	24
+	.	1	23
+	+	3	0
+	+	1	23
+
+> ~/holbertonschool-web_back_end/README.md
+	*	1724611009	0
+	"	1	4
+	^	1	5
+	.	1	4
+	+	2	0
+	+	1	4
+
+> ~/holbertonschool-web_back_end/pagination/3-hypermedia_del_pagination.py
+	*	1724610677	0
+	"	64	8
+	^	64	9
+	.	64	8
+	+	64	8
+
+> ~/holbertonschool-web_back_end/pagination/2-hypermedia_pagination.py
+	*	1724610515	0
+	"	59	8
+	^	59	9
+	.	59	8
+	+	112	8
+	+	59	8
+
+> ~/holbertonschool-web_back_end/pagination/1-simple_pagination.py
+	*	1724610144	0
+	"	49	32
+	^	49	33
+	.	49	32
+	+	85	45
+	+	75	68
+	+	75	11
+	+	53	7
+	+	59	64
+	+	66	0
+	+	75	12
+	+	49	32
+
+> ~/holbertonschool-web_back_end/pagination/Popular_Baby_Names.csv
+	*	1724282487	0
+	"	19419	41
+	^	19419	42
+	.	19419	41
+	+	19419	41
+
+> ~/holbertonschool-web_back_end/pagination/0-simple_helper_function.py
+	*	1724281911	0
+	"	2	4
+	^	2	5
+	.	2	4
+	+	8	33
+	+	5	7
+	+	2	4
+
+> ~/holbertonschool-web_back_end/pagination/README.md
+	*	1724281848	0
+	"	1	9
+	^	1	10
+	.	1	9
+	+	1	9
+
+> ~/holbertonschool-web_back_end/python_async_comprehension/2-measure_runtime.py
+	*	1724281289	0
+	"	2	43
+	^	2	44
+	.	3	0
+	+	17	0
+	+	15	0
+	+	11	0
+	+	9	91
+	+	9	7
+	+	3	0
+
+> ~/holbertonschool-web_back_end/python_async_comprehension/1-async_comprehension.py
+	*	1724281044	0
+	"	11	31
+	^	11	32
+	.	12	46
+	+	45	0
+	+	1	42
+	+	45	0
+	+	43	0
+	+	38	0
+	+	30	0
+	+	28	0
+	+	24	0
+	+	21	7
+	+	21	0
+	+	13	3
+	+	12	46
+
+> ~/holbertonschool-web_back_end/python_async_comprehension/0-async_generator.py
+	*	1724278711	0
+	"	9	20
+	^	9	21
+	.	9	20
+	+	13	0
+	+	12	34
+	+	2	10
+	+	9	20
+
+> ~/holbertonschool-web_back_end/python_async_comprehension/python_async_comprehension
+	*	1724278583	0
+	"	7	34
+	^	7	35
+	.	7	35
+	+	7	35
+
+> ~/holbertonschool-web_back_end/python_async_comprehension/README.md
+	*	1724278491	0
+	"	1	25
+	^	1	26
+	.	1	25
+	+	1	25
+
+> ~/holbertonschool-web_back_end/python_async_function/4-tasks.py
+	*	1723758190	0
+	"	11	7
+	^	11	8
+	.	11	7
+	+	14	24
+	+	11	69
+	+	11	7
+
+> ~/holbertonschool-web_back_end/python_async_function/3-tasks.py
+	*	1723758106	0
+	"	19	53
+	^	19	54
+	.	19	53
+	+	19	53
+
+> ~/holbertonschool-web_back_end/python_async_function/2-measure_runtime.py
+	*	1723758063	0
+	"	29	24
+	^	29	25
+	.	29	24
+	+	53	25
+	+	29	24
+
+> ~/holbertonschool-web_back_end/python_async_function/1-concurrent_coroutines.py
+	*	1723757896	0
+	"	1	0
+	^	1	0
+	.	2	0
+	+	21	0
+	+	1	248
+	+	1	262
+	+	1	109
+	+	1	55
+	+	1	109
+	+	21	0
+	+	20	16
+	+	2	45
+	+	9	28
+	+	1	0
+	+	2	0
+
+> ~/holbertonschool-web_back_end/python_async_function/0-basic_async_syntax.py
+	*	1723757547	0
+	"	8	27
+	^	8	28
+	.	8	28
+	+	13	15
+	+	2	3
+	+	8	28
+
+> ~/holbertonschool-web_back_end/python_async_function/python_async_function
+	*	1723757408	0
+	"	13	7
+	^	13	8
+	.	13	8
+	+	13	8
+
+> ~/holbertonschool-web_back_end/python_async_function/README.md
+	*	1723756941	0
+	"	1	20
+	^	1	21
+	.	1	20
+	+	1	20
+
+> ~/holbertonschool-web_back_end/python_variable_annotations/9-element_length.py
+	*	1723756821	0
+	"	3	28
+	^	3	29
+	.	2	29
+	+	8	36
+	+	2	29
+
+> ~/holbertonschool-web_back_end/python_variable_annotations/8-make_multiplier.py
+	*	1723756760	0
+	"	2	6
+	^	2	7
+	.	2	7
+	+	11	29
+	+	2	7
+
+> ~/holbertonschool-web_back_end/python_variable_annotations/7-to_kv.py
+	*	1723756707	0
+	"	2	104
+	^	2	105
+	.	2	104
+	+	8	28
+	+	3	0
+	+	2	102
+	+	2	2
+	+	2	104
+
+> ~/holbertonschool-web_back_end/python_variable_annotations/6-sum_mixed_list.py
+	*	1723756578	0
+	"	6	0
+	^	6	0
+	.	5	0
+	+	20	0
+	+	5	0
+
+> ~/holbertonschool-web_back_end/python_variable_annotations/5-sum_list.py
+	*	1723756386	0
+	"	6	0
+	^	6	0
+	.	5	0
+	+	20	0
+	+	5	0
+
+> ~/holbertonschool-web_back_end/python_variable_annotations/4-define_variables.py
+	*	1723756338	0
+	"	6	0
+	^	6	0
+	.	5	0
+	+	11	0
+	+	5	0
+
+> ~/holbertonschool-web_back_end/python_variable_annotations/3-to_str.py
+	*	1723756275	0
+	"	6	0
+	^	6	0
+	.	5	0
+	+	18	0
+	+	5	0
+
+> ~/holbertonschool-web_back_end/python_variable_annotations/2-floor.py
+	*	1723756249	0
+	"	2	2
+	^	2	3
+	.	3	0
+	+	19	0
+	+	4	0
+	+	3	0
+
+> ~/holbertonschool-web_back_end/python_variable_annotations/0-add.py
+	*	1723756124	0
+	"	6	0
+	^	6	0
+	.	5	0
+	+	17	0
+	+	1	22
+	+	1	283
+	+	17	0
+	+	1	267
+	+	16	16
+	+	17	0
+	+	13	0
+	+	12	37
+	+	7	0
+	+	10	0
+	+	13	0
+	+	5	0
+
+> ~/holbertonschool-web_back_end/python_variable_annotations/1-concat.py
+	*	1723756102	0
+	"	6	0
+	^	6	0
+	.	7	0
+	+	19	0
+	+	7	0
+
+> ~/holbertonschool-web_back_end/python_variable_annotations/README.md
+	*	1723755628	0
+	"	1	26
+	^	1	27
+	.	1	26
+	+	1	26
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/28-answer.txt
+	*	1723755564	0
+	"	1	2
+	^	1	3
+	.	1	2
+	+	1	2
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/27-answer.txt
+	*	1723755534	0
+	"	1	1
+	^	1	2
+	.	1	1
+	+	1	1
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/26-answer.txt
+	*	1723755499	0
+	"	1	3
+	^	1	4
+	.	1	3
+	+	1	3
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/[200~26-answer.txt~
+	*	1723755488	0
+	"	1	0
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/25-answer.txt
+	*	1723755469	0
+	"	1	4
+	^	1	5
+	.	1	4
+	+	1	4
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/24-answer.txt
+	*	1723755438	0
+	"	1	3
+	^	1	4
+	.	1	3
+	+	1	3
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/23-answer.txt
+	*	1723755410	0
+	"	1	2
+	^	1	3
+	.	1	2
+	+	1	2
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/22-answer.txt
+	*	1723755390	0
+	"	1	1
+	^	1	2
+	.	1	1
+	+	1	1
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/21-answer.txt
+	*	1723755363	0
+	"	1	2
+	^	1	3
+	.	1	2
+	+	1	2
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/20-answer.txt
+	*	1723755334	0
+	"	1	2
+	^	1	3
+	.	1	2
+	+	1	2
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/19-copy_list.py
+	*	1723755284	0
+	"	3	19
+	^	3	20
+	.	3	19
+	+	3	19
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/18-answer.txt
+	*	1723755255	0
+	"	1	8
+	^	1	9
+	.	1	8
+	+	1	8
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/17-answer.txt
+	*	1723755217	0
+	"	1	11
+	^	1	12
+	.	1	11
+	+	1	11
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/16-answer.txt
+	*	1723465590	0
+	"	1	0
+	^	1	1
+	.	1	0
+	+	1	0
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/15-answer.txt
+	*	1723465523	0
+	"	1	8
+	^	1	9
+	.	1	8
+	+	1	8
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/14-answer.txt
+	*	1723465469	0
+	"	1	11
+	^	1	12
+	.	1	11
+	+	1	11
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/13-answer.txt
+	*	1723465406	0
+	"	1	3
+	^	1	4
+	.	1	3
+	+	1	3
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/12-answer.txt
+	*	1723465351	0
+	"	1	3
+	^	1	4
+	.	1	3
+	+	1	3
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/11-answer.txt
+	*	1723465282	0
+	"	1	4
+	^	1	5
+	.	1	4
+	+	1	4
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/10-answer.txt
+	*	1723465229	0
+	"	1	3
+	^	1	4
+	.	1	3
+	+	1	3
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/9-answer.txt
+	*	1723465200	0
+	"	1	0
+	^	1	4
+	.	1	3
+	+	1	3
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/8-answer.txt
+	*	1723465177	0
+	"	1	3
+	^	1	4
+	.	1	3
+	+	1	3
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/7-answer.txt
+	*	1723465138	0
+	"	1	3
+	^	1	4
+	.	1	3
+	+	1	3
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/6-answer.txt
+	*	1723465092	0
+	"	1	3
+	^	1	4
+	.	1	3
+	+	1	3
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/5-answer.txt
+	*	1723465056	0
+	"	1	1
+	^	1	2
+	.	1	1
+	+	1	1
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/4-answer.txt
+	*	1723465032	0
+	"	1	2
+	^	1	3
+	.	1	2
+	+	1	2
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/3-answer.txt
+	*	1723465009	0
+	"	1	2
+	^	1	3
+	.	1	2
+	+	1	2
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/2-answer.txt
+	*	1723464987	0
+	"	1	1
+	^	1	2
+	.	1	1
+	+	1	1
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/1-answer.txt
+	*	1723464946	0
+	"	1	1
+	^	1	2
+	.	1	1
+	+	1	1
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/0-answer.txt
+	*	1723464898	0
+	"	1	3
+	^	1	4
+	.	1	3
+	+	1	3
+
+> ~/holbertonschool-higher_level_programming/python-everything_is_object/README.md
+	*	1723464858	0
+	"	1	26
+	^	1	27
+	.	1	27
+	+	1	27
+
+> ~/holbertonschool-hbnb-client/03-frontend/base_files/scripts.js
+	*	1722645788	0
+	"	1	0
+	^	94	0
+	.	1	0
+	+	93	1
+	+	1	0
+
+> ~/holbertonschool-hbnb-client/03-frontend/scripts.js
+	*	1722645740	0
+	"	1	0
+	^	69	0
+	.	68	1
+	+	736	2
+	+	351	53
+	+	445	444
+	+	256	1
+	+	161	1
+	+	68	1
+
+> ~/holbertonschool-hbnb-client/03-frontend/add_review.html
+	*	1722645032	0
+	"	38	0
+	^	38	0
+	.	37	7
+	+	71	0
+	+	37	7
+
+> ~/holbertonschool-hbnb-client/03-frontend/base_files/place.html
+	*	1722644967	0
+	"	41	0
+	^	41	0
+	.	40	7
+	+	40	7
+
+> ~/holbertonschool-hbnb-client/03-frontend/index.html
+	*	1722644748	0
+	"	29	0
+	^	29	0
+	.	28	7
+	+	63	0
+	+	28	7
 
 > ~/holbertonschool-hbnb-client/03-frontend/mock-api/app.py
 	*	1722644237	0
@@ -374,20 +1105,6 @@ $
 > ~/holbertonschool-hbnb-client/03-frontend/mock-api/requirements.txt
 	*	1722644214	0
 	"	1	0
-
-> ~/holbertonschool-hbnb-client/03-frontend/index.html
-	*	1722644170	0
-	"	34	5
-	^	34	6
-	.	35	0
-	+	35	0
-
-> ~/holbertonschool-hbnb-client/03-frontend/scripts.js
-	*	1722644152	0
-	"	290	2
-	^	290	3
-	.	290	2
-	+	290	2
 
 > ~/holbertonschool-hbnb-client/03-frontend/img/scripts.js
 	*	1722644122	0
@@ -402,13 +1119,6 @@ $
 	^	101	0
 	.	100	1
 	+	100	1
-
-> ~/holbertonschool-hbnb-client/03-frontend/add_review.html
-	*	1722638968	0
-	"	33	6
-	^	33	7
-	.	34	0
-	+	34	0
 
 > ~/holbertonschool-hbnb-client/03-frontend/place.html
 	*	1722638953	0
@@ -435,754 +1145,3 @@ $
 	^	18	7
 	.	19	0
 	+	19	0
-
-> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/8-script.js
-	*	1722272817	0
-	"	8	2
-	^	8	3
-	.	9	0
-	+	9	0
-
-> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/7-main.html
-	*	1722272786	0
-	"	19	6
-	^	20	0
-	.	19	7
-	+	32	6
-	+	19	7
-
-> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/7-script.js
-	*	1722272757	0
-	"	14	2
-	^	14	3
-	.	15	0
-	+	1	53
-	+	15	0
-
-> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/6-main.html
-	*	1722272691	0
-	"	18	6
-	^	18	7
-	.	19	0
-	+	18	7
-	+	19	0
-
-> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/6-script.js
-	*	1722272671	0
-	"	8	2
-	^	8	3
-	.	9	0
-	+	8	3
-	+	9	0
-
-> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/5-main.html
-	*	1722272635	0
-	"	18	6
-	^	18	7
-	.	19	0
-	+	19	0
-
-> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/5-script.js
-	*	1722272619	0
-	"	5	2
-	^	5	3
-	.	6	0
-	+	6	0
-
-> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/4-main.html
-	*	1722272509	0
-	"	21	6
-	^	21	7
-	.	22	0
-	+	22	0
-
-> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/4-script.js
-	*	1722272493	0
-	"	7	2
-	^	7	3
-	.	8	0
-	+	8	0
-
-> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/3-main.html
-	*	1722272217	0
-	"	25	0
-	^	25	0
-	.	24	7
-	+	24	7
-
-> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/3-script.js
-	*	1722271849	0
-	"	12	2
-	^	12	3
-	.	13	0
-	+	13	0
-
-> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/2-main.html
-	*	1722271793	0
-	"	21	6
-	^	21	7
-	.	22	0
-	+	22	0
-
-> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/2-script.js
-	*	1722271777	0
-	"	5	2
-	^	5	3
-	.	6	0
-	+	6	0
-
-> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/1-main.html
-	*	1722271240	0
-	"	16	6
-	^	16	7
-	.	17	0
-	+	17	0
-
-> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/1-script.js
-	*	1722271164	0
-	"	5	2
-	^	5	3
-	.	6	0
-	+	5	3
-	+	6	0
-
-> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/0-main.html
-	*	1722271057	0
-	"	15	6
-	^	15	7
-	.	16	0
-	+	15	7
-	+	16	0
-
-> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/0-script.js
-	*	1722270797	0
-	"	3	2
-	^	3	3
-	.	4	0
-	+	3	3
-	+	4	0
-
-> ~/holbertonschool-higher_level_programming/javascript-dom_manipulation/README.md
-	*	1722270713	0
-	"	1	26
-	^	1	27
-	.	1	26
-	+	1	26
-
-> ~/holbertonschool-web_back_end/ES6_promise/6-final-user.js
-	*	1721857662	0
-	"	3	0
-	^	1	1
-	.	1	0
-	+	27	0
-	+	1	0
-	+	15	0
-	+	1	0
-
-> ~/holbertonschool-web_back_end/ES6_promise/6-final-user.
-	*	1721857448	0
-	"	1	0
-
-> ~/holbertonschool-web_back_end/ES6_promise/6-final-user.test.js
-	*	1721856838	0
-	"	1	0
-	^	1	0
-	.	2	0
-	+	15	3
-	+	16	0
-	+	1	0
-	+	2	0
-
-> ~/holbertonschool-web_back_end/ES6_promise/6-main.js
-	*	1721856280	0
-	"	3	70
-	^	3	71
-	.	4	0
-	+	3	71
-	+	1	0
-	+	2	0
-	+	4	0
-
-> ~/holbertonschool-web_back_end/ES6_promise/5-main.js
-	*	1721856166	0
-	"	1	0
-	^	1	0
-	.	2	0
-	+	4	0
-	+	1	0
-	+	2	0
-
-> ~/holbertonschool-web_back_end/ES6_promise/5-photo-reject.js
-	*	1721856150	0
-	"	1	0
-	^	1	0
-	.	1	0
-	+	4	0
-	+	1	0
-
-> ~/holbertonschool-web_back_end/ES6_promise/4-main.js
-	*	1721856046	0
-	"	3	39
-	^	3	40
-	.	4	0
-	+	3	40
-	+	1	0
-	+	2	0
-	+	4	0
-
-> ~/holbertonschool-web_back_end/ES6_promise/4-user-promise.js
-	*	1721856027	0
-	"	1	0
-	^	1	0
-	.	2	0
-	+	6	0
-	+	1	0
-	+	2	0
-
-> ~/holbertonschool-web_back_end/ES6_promise/3-main.js
-	*	1721855755	0
-	"	3	21
-	^	3	22
-	.	4	0
-	+	3	22
-	+	1	0
-	+	2	0
-	+	4	0
-
-> ~/holbertonschool-web_back_end/ES6_promise/utils.js
-	*	1721855735	0
-	"	1	0
-	^	1	0
-	.	2	0
-	+	8	0
-	+	1	0
-	+	2	0
-
-> ~/holbertonschool-web_back_end/ES6_promise/3-all.js
-	*	1721855710	0
-	"	1	0
-	^	1	0
-	.	2	0
-	+	14	0
-	+	1	0
-	+	2	0
-
-> ~/holbertonschool-web_back_end/ES6_promise/2-main.js
-	*	1721855500	0
-	"	1	0
-	^	1	0
-	.	2	0
-	+	8	0
-	+	1	0
-	+	2	0
-
-> ~/holbertonschool-web_back_end/ES6_promise/2-then.js
-	*	1721855487	0
-	"	1	0
-	^	1	0
-	.	2	0
-	+	14	0
-	+	1	0
-	+	2	0
-
-> ~/holbertonschool-web_back_end/ES6_promise/1-main.js
-	*	1721855324	0
-	"	4	42
-	^	4	43
-	.	5	0
-	+	4	43
-	+	1	0
-	+	2	0
-	+	5	0
-
-> ~/holbertonschool-web_back_end/ES6_promise/1-promise.js
-	*	1721855305	0
-	"	1	0
-	^	1	0
-	.	2	0
-	+	12	0
-	+	1	0
-	+	2	0
-
-> ~/holbertonschool-web_back_end/ES6_promise/0-promise.js
-	*	1721855192	0
-	"	1	0
-	^	1	0
-	.	2	0
-	+	8	0
-	+	1	0
-	+	1	31
-	+	1	104
-	+	7	34
-	+	8	0
-	+	1	0
-	+	2	0
-
-> ~/holbertonschool-web_back_end/ES6_promise/0-main.js
-	*	1721855104	0
-	"	1	36
-	^	1	37
-	.	2	0
-	+	4	41
-	+	5	0
-	+	1	0
-	+	2	0
-
-> ~/holbertonschool-web_back_end/ES6_promise/README.md
-	*	1721855024	0
-	"	1	11
-	^	1	12
-	.	1	11
-	+	1	11
-
-> ~/holbertonschool-web_back_end/ES6_data_manipulation/7-has_array_values.js
-	*	1721761551	0
-	"	1	0
-	^	1	0
-	.	2	0
-	+	10	0
-	+	1	0
-	+	6	0
-	+	1	0
-	+	2	0
-
-> ~/holbertonschool-web_back_end/ES6_data_manipulation/10-update_uniq_items.js
-	*	1721761424	0
-	"	1	0
-	^	1	0
-	.	2	0
-	+	25	33
-	+	26	0
-	+	1	0
-	+	14	0
-	+	1	0
-	+	2	0
-
-> ~/holbertonschool-web_back_end/ES6_data_manipulation/10-main.js
-	*	1721761340	0
-	"	1	0
-	^	1	0
-	.	2	0
-	+	9	0
-	+	1	0
-	+	2	0
-
-> ~/holbertonschool-web_back_end/ES6_data_manipulation/9-main.js
-	*	1721761155	0
-	"	1	0
-	^	1	0
-	.	2	0
-	+	4	0
-	+	1	0
-	+	2	0
-
-> ~/holbertonschool-web_back_end/ES6_data_manipulation/9-groceries_list.js
-	*	1721761140	0
-	"	1	0
-	^	1	0
-	.	2	0
-	+	13	0
-	+	1	0
-	+	2	0
-
-> ~/holbertonschool-web_back_end/ES6_data_manipulation/8-clean_set.js
-	*	1721760969	0
-	"	16	23
-	^	16	24
-	.	17	0
-	+	31	0
-	+	1	0
-	+	17	0
-
-> ~/holbertonschool-web_back_end/ES6_data_manipulation/8-main.js
-	*	1721760625	0
-	"	1	0
-	^	1	0
-	.	2	0
-	+	5	0
-	+	1	0
-	+	2	0
-
-> ~/holbertonschool-web_back_end/ES6_data_manipulation/7-main.js
-	*	1721760540	0
-	"	1	0
-	^	1	0
-	.	2	0
-	+	6	0
-	+	1	0
-	+	2	0
-
-> ~/holbertonschool-web_back_end/ES6_data_manipulation/6-main.js
-	*	1721758160	0
-	"	3	51
-	^	3	52
-	.	4	0
-	+	3	52
-	+	1	0
-	+	2	0
-	+	4	0
-
-> ~/holbertonschool-web_back_end/ES6_data_manipulation/6-set.js
-	*	1721758140	0
-	"	5	27
-	^	5	28
-	.	6	0
-	+	6	0
-
-> ~/holbertonschool-web_back_end/ES6_data_manipulation/5-main.js
-	*	1721758080	0
-	"	1	0
-	^	1	0
-	.	2	0
-	+	4	0
-	+	1	0
-	+	2	0
-
-> ~/holbertonschool-web_back_end/ES6_data_manipulation/5-typed_arrays.js
-	*	1721758058	0
-	"	13	35
-	^	13	36
-	.	14	0
-	+	14	0
-
-> ~/holbertonschool-web_back_end/ES6_data_manipulation/4-update_grade_by_city.js
-	*	1721758002	0
-	"	11	0
-	^	11	1
-	.	12	0
-	+	22	0
-	+	12	0
-
-> ~/holbertonschool-web_back_end/ES6_data_manipulation/4-main.js
-	*	1721757548	0
-	"	7	104
-	^	7	105
-	.	8	0
-	+	8	0
-
-> ~/holbertonschool-web_back_end/ES6_data_manipulation/3-main.js
-	*	1721757301	0
-	"	8	18
-	^	8	19
-	.	9	0
-	+	9	0
-
-> ~/holbertonschool-web_back_end/ES6_data_manipulation/3-get_ids_sum.js
-	*	1721757287	0
-	"	3	0
-	^	3	1
-	.	4	0
-	+	4	0
-
-> ~/holbertonschool-web_back_end/ES6_data_manipulation/2-main.js
-	*	1721757213	0
-	"	7	61
-	^	7	62
-	.	8	0
-	+	7	62
-	+	8	0
-
-> ~/holbertonschool-web_back_end/ES6_data_manipulation/2-get_students_by_loc.js
-	*	1721757195	0
-	"	3	0
-	^	3	1
-	.	4	0
-	+	4	0
-
-> ~/holbertonschool-web_back_end/ES6_data_manipulation/1-get_list_student_ids.js
-	*	1721756849	0
-	"	6	0
-	^	6	1
-	.	7	0
-	+	7	0
-
-> ~/holbertonschool-web_back_end/ES6_data_manipulation/0-get_list_students.js
-	*	1721756316	0
-	"	5	61
-	^	5	62
-	.	5	61
-	+	8	0
-	+	5	61
-
-> ~/holbertonschool-web_back_end/ES6_data_manipulation/README.md
-	*	1721755039	0
-	"	1	20
-	^	1	21
-	.	1	21
-	+	1	21
-
-> ~/holbertonschool-web_back_end/ES6_basic/12-createReportObject.js
-	*	1721396542	0
-	"	10	0
-	^	10	1
-	.	10	0
-	+	10	0
-
-> ~/holbertonschool-web_back_end/ES6_basic/11-createEmployeesObject.js
-	*	1721396468	0
-	"	5	0
-	^	5	1
-	.	6	0
-	+	6	0
-
-> ~/holbertonschool-web_back_end/ES6_basic/10-loops.js
-	*	1721396407	0
-	"	7	0
-	^	7	1
-	.	8	0
-	+	8	0
-	+	1	171
-	+	1	0
-	+	1	69
-	+	8	0
-	+	1	155
-	+	8	0
-
-> ~/holbertonschool-web_back_end/ES6_basic/9-getFullBudget.js
-	*	1721396134	0
-	"	1	47
-	^	1	48
-	.	1	48
-	+	17	0
-	+	1	48
-
-> ~/holbertonschool-web_back_end/ES6_basic/8-getBudgetCurrentYear.js
-	*	1721395963	0
-	"	15	0
-	^	15	1
-	.	16	0
-	+	15	1
-	+	16	0
-
-> ~/holbertonschool-web_back_end/ES6_basic/7-getBudgetObject.js
-	*	1721395729	0
-	"	9	0
-	^	9	1
-	.	10	0
-	+	10	0
-
-> ~/holbertonschool-web_back_end/ES6_basic/6-string-interpolation.js
-	*	1721395631	0
-	"	10	0
-	^	10	1
-	.	11	0
-	+	10	1
-	+	11	0
-
-> ~/holbertonschool-web_back_end/ES6_basic/5-spread-operator.js
-	*	1721395523	0
-	"	3	0
-	^	3	1
-	.	4	0
-	+	4	0
-
-> ~/holbertonschool-web_back_end/ES6_basic/4-rest-parameter.js
-	*	1721359674	0
-	"	3	0
-	^	3	1
-	.	3	0
-	+	3	0
-
-> ~/holbertonschool-web_back_end/ES6_basic/3-default-parameter.js
-	*	1721359638	0
-	"	3	0
-	^	3	1
-	.	3	0
-	+	3	0
-
-> ~/holbertonschool-web_back_end/ES6_basic/2-arrow.js
-	*	1721359510	0
-	"	8	0
-	^	8	1
-	.	8	0
-	+	8	0
-
-> ~/holbertonschool-web_back_end/ES6_basic/1-block-scoped.js
-	*	1721359394	0
-	"	13	0
-	^	13	1
-	.	13	0
-	+	1	203
-	+	13	0
-
-> ~/holbertonschool-web_back_end/ES6_basic/README.md
-	*	1721359261	0
-	"	1	9
-	^	1	10
-	.	1	9
-	+	1	9
-
-> ~/holbertonschool-web_back_end/ES6_basic/0-constants.js
-	*	1721359228	0
-	"	1	0
-	^	1	0
-	.	2	0
-	+	1	17
-	+	28	1
-	+	1	17
-	+	14	1
-	+	15	0
-	+	1	0
-	+	2	0
-
-> ~/holbertonschool-web_back_end/ES6_classes/6-sky_high.js
-	*	1721359111	0
-	"	18	0
-	^	18	1
-	.	18	0
-	+	46	1
-	+	47	0
-	+	43	0
-	+	40	0
-	+	34	0
-	+	18	0
-
-> ~/holbertonschool-web_back_end/ES6_classes/9-hoisting.js
-	*	1721359040	0
-	"	47	29
-	^	47	30
-	.	47	29
-	+	136	0
-	+	91	81
-	+	92	0
-	+	47	29
-
-> ~/holbertonschool-web_back_end/ES6_classes/4-pricing.js
-	*	1721358994	0
-	"	54	0
-	^	54	1
-	.	54	0
-	+	1	17
-	+	165	1
-	+	166	0
-	+	109	1
-	+	54	0
-
-> ~/holbertonschool-web_back_end/ES6_classes/3-currency.js
-	*	1721358881	0
-	"	44	0
-	^	44	1
-	.	44	0
-	+	84	0
-	+	1	0
-	+	50	0
-	+	58	0
-	+	66	0
-	+	70	0
-	+	44	0
-
-> ~/holbertonschool-web_back_end/ES6_classes/2-hbtn_course.js
-	*	1721358714	0
-	"	56	0
-	^	56	1
-	.	56	0
-	+	170	1
-	+	171	0
-	+	113	1
-	+	114	0
-	+	56	0
-
-> ~/holbertonschool-web_back_end/ES6_classes/0-classroom.js
-	*	1721358655	0
-	"	5	0
-	^	5	1
-	.	5	0
-	+	1	129
-	+	1	393
-	+	6	0
-	+	1	32
-	+	5	0
-
-> ~/holbertonschool-web_back_end/ES6_classes/10-main.js
-	*	1721355287	0
-	"	9	2
-	^	9	3
-	.	10	0
-	+	1	30
-	+	1	519
-	+	1	244
-	+	23	0
-	+	22	1
-	+	23	0
-	+	16	3
-	+	17	0
-	+	10	0
-
-> ~/holbertonschool-web_back_end/ES6_classes/10-car.js
-	*	1721355253	0
-	"	19	0
-	^	19	1
-	.	19	0
-	+	1	451
-	+	20	0
-	+	1	36
-	+	19	0
-
-> ~/holbertonschool-web_back_end/ES6_classes/Implement
-	*	1721351968	0
-	"	1	0
-	^	1	0
-
-> ~/holbertonschool-web_back_end/ES6_classes/8-main.js
-	*	1721350507	0
-	"	6	0
-	^	6	0
-	.	5	51
-	+	5	51
-
-> ~/holbertonschool-web_back_end/ES6_classes/8-hbtn_class.js
-	*	1721350495	0
-	"	14	0
-	^	14	1
-	.	15	0
-	+	14	1
-	+	15	0
-
-> ~/holbertonschool-web_back_end/ES6_classes/7-main.js
-	*	1721348793	0
-	"	6	0
-	^	6	0
-	.	5	34
-	+	5	34
-
-> ~/holbertonschool-web_back_end/ES6_classes/7-airport.js
-	*	1721348781	0
-	"	10	0
-	^	10	1
-	.	11	0
-	+	10	1
-	+	11	0
-
-> ~/holbertonschool-web_back_end/ES6_classes/6-main.js
-	*	1721348704	0
-	"	7	0
-	^	7	0
-	.	6	49
-	+	6	49
-
-> ~/holbertonschool-web_back_end/ES6_classes/5-building.js
-	*	1721348568	0
-	"	23	0
-	^	23	1
-	.	23	0
-	+	62	24
-	+	63	0
-	+	42	24
-	+	1	387
-	+	24	0
-	+	1	363
-	+	23	0
-
-> ~/holbertonschool-web_back_end/ES6_classes/5-main.js
-	*	1721346252	0
-	"	23	0
-	^	23	0
-	.	22	85
-	+	22	85
-
-> ~/holbertonschool-web_back_end/ES6_classes/4-main.js
-	*	1721346161	0
-	"	10	0
-	^	10	0
-	.	9	44
-	+	9	44

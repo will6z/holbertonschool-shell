@@ -1,5 +1,0 @@
-2024-06-18 17:28:26.385 [info] Started local extension host with pid 23920.
-2024-06-18 17:28:28.295 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
-2024-06-18 17:28:33.404 [info] [perf] Render performance baseline is 94ms
-2024-06-20 19:23:08.802 [warning] Failed to fetch chat participant registry XHR failed
-2024-06-20 22:56:05.836 [warning] Failed to fetch chat participant registry XHR failed

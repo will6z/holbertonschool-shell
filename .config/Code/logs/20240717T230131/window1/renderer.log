@@ -1,9 +1,0 @@
-2024-07-18 15:16:59.351 [error] Error received from starting extension host (kind: LocalProcess)
-2024-07-18 15:16:59.352 [error] The local extension host took longer than 60s to connect.
-2024-07-18 15:16:59.353 [info] Started local extension host with pid 3591.
-2024-07-18 15:16:59.704 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
-2024-07-18 15:17:05.038 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
-2024-07-18 15:17:07.204 [info] [perf] Render performance baseline is 164ms
-2024-07-18 19:10:50.166 [info] Started local extension host with pid 8368.
-2024-07-18 21:45:53.813 [warning] Failed to fetch chat participant registry XHR failed
-2024-07-18 23:09:36.340 [warning] Failed to fetch chat participant registry XHR failed
