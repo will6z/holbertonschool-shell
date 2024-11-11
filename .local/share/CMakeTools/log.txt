@@ -1,14 +1,14 @@
-2024-07-19T03:16:09.971Z [debug] [main] Safe constructing new CMakeProject instance
-2024-07-19T03:16:09.973Z [debug] [variant] Constructing VariantManager
-2024-07-19T03:16:09.976Z [debug] [main] Constructing new CMakeProject instance
-2024-07-19T03:16:09.978Z [debug] [main] Starting CMake Tools second-phase init
-2024-07-19T03:16:09.980Z [debug] [expand] expanded ${workspaceFolder}
-2024-07-19T03:16:10.127Z [info] [variant] Loaded new set of variants
-2024-07-19T03:16:10.140Z [debug] [kit] Reading kits file /home/will/.local/share/CMakeTools/cmake-tools-kits.json
-2024-07-19T03:16:10.182Z [info] [kit] Successfully loaded 1 kits from /home/will/.local/share/CMakeTools/cmake-tools-kits.json
-2024-07-19T03:16:10.194Z [debug] [kit] Not reading non-existent kits file: /home/will/holbertonschool-web_back_end/ES6_classes/.vscode/cmake-kits.json
-2024-07-19T03:16:10.208Z [debug] [main] CMakeProject instance initialization complete.
-2024-07-19T03:16:10.383Z [debug] [main] Not starting CMake driver: no kit selected
+2024-09-27T18:12:29.779Z [debug] [main] Safe constructing new CMakeProject instance
+2024-09-27T18:12:29.781Z [debug] [variant] Constructing VariantManager
+2024-09-27T18:12:29.783Z [debug] [main] Constructing new CMakeProject instance
+2024-09-27T18:12:29.784Z [debug] [main] Starting CMake Tools second-phase init
+2024-09-27T18:12:29.786Z [debug] [expand] expanded ${workspaceFolder}
+2024-09-27T18:12:29.794Z [debug] [kit] Reading kits file /home/will/.local/share/CMakeTools/cmake-tools-kits.json
+2024-09-27T18:12:29.896Z [info] [kit] Successfully loaded 1 kits from /home/will/.local/share/CMakeTools/cmake-tools-kits.json
+2024-09-27T18:12:29.910Z [debug] [kit] Not reading non-existent kits file: /home/will/holbertonschool-web_back_end/ES6_classes/.vscode/cmake-kits.json
+2024-09-27T18:12:29.950Z [info] [variant] Loaded new set of variants
+2024-09-27T18:12:29.951Z [debug] [main] CMakeProject instance initialization complete.
+2024-09-27T18:12:30.175Z [debug] [main] Not starting CMake driver: no kit selected
  variants
 2024-05-06T17:37:14.552Z [debug] [kit] Not reading non-existent kits file: /home/will/.local/share/CMakeTools/cmake-tools-kits.json
 2024-05-06T17:37:14.553Z [debug] [expand] expanding cmake

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# command displays TCP and UDP ports
+
+netstat -lp

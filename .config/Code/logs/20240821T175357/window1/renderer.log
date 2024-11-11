@@ -1,0 +1,7 @@
+2024-08-21 17:54:02.662 [info] Started local extension host with pid 618.
+2024-08-21 17:54:04.087 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-08-21 17:54:04.089 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-21 17:54:04.775 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-08-21 17:54:13.611 [info] [perf] Render performance baseline is 147ms
+2024-08-21 17:54:33.672 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-08-25 14:19:48.649 [warning] Failed to fetch chat participant registry XHR failed

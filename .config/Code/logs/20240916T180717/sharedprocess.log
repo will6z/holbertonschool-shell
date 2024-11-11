@@ -1,0 +1,59 @@
+2024-09-16 18:07:24.886 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-09-16 18:07:25.039 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-09-16 18:07:26.252 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-09-16 18:07:26.376 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-09-16 18:07:26.456 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-09-16 18:07:26.663 [info] Deleted uninstalled extension from disk ms-python.python /home/will/.vscode/extensions/ms-python.python-2024.12.3-linux-x64
+2024-09-16 18:07:26.666 [info] Deleted uninstalled extension from disk ms-vscode.cmake-tools /home/will/.vscode/extensions/ms-vscode.cmake-tools-1.19.49
+2024-09-16 18:07:27.556 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-09-16 18:07:27.623 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-09-16 18:07:27.777 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-09-16 18:07:29.491 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-09-16 18:07:30.495 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-09-16 18:07:31.274 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-09-16 18:07:32.580 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-09-16 18:07:34.086 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-09-16 18:07:35.205 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-09-16 18:07:36.216 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-09-16 18:07:37.456 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-09-16 18:07:37.784 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-09-16 18:07:39.444 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-09-16 18:07:40.132 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-09-16 18:07:40.155 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-09-16 18:07:50.773 [info] Getting Manifest... ms-python.debugpy
+2024-09-16 18:07:50.775 [info] Getting Manifest... ms-python.python
+2024-09-16 18:07:50.917 [info] Installing extension: ms-python.debugpy vscode-userdata:/home/will/.vscode/extensions/extensions.json
+2024-09-16 18:07:50.992 [info] Installing extension: ms-python.python vscode-userdata:/home/will/.vscode/extensions/extensions.json
+2024-09-16 18:07:51.963 [info] Getting Manifest... ms-python.python
+2024-09-16 18:07:52.114 [info] Waiting for already requested installing extension ms-python.python ms-python.debugpy vscode-userdata:/home/will/.vscode/extensions/extensions.json
+2024-09-16 18:07:55.029 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-09-16 18:07:57.835 [info] Extension signature verification result for ms-python.python: Success. Executed: true. Duration: 1384ms.
+2024-09-16 18:08:02.905 [info] Extracted extension to file:///home/will/.vscode/extensions/ms-python.python-2024.14.1-linux-x64: ms-python.python
+2024-09-16 18:08:03.014 [info] Renamed to /home/will/.vscode/extensions/ms-python.python-2024.14.1-linux-x64
+2024-09-16 18:08:03.019 [error] [/home/will/.vscode/extensions/ms-python.python-2024.14.1-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.91.0.
+2024-09-16 18:08:03.161 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/will/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/will/.vscode/extensions/extensions.json.vsctmp'
+    at c.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-09-16 18:08:03.222 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/will/.vscode/extensions/extensions.json
+2024-09-16 18:08:03.222 [info] Finished waiting for already requested installing extension ms-python.python ms-python.debugpy vscode-userdata:/home/will/.vscode/extensions/extensions.json
+2024-09-16 18:08:03.225 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/will/.vscode/extensions/extensions.json
+2024-09-16 18:12:40.286 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-09-16 18:12:40.292 [error] [/home/will/.vscode/extensions/ms-python.python-2024.14.1-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.91.0.
+2024-09-16 18:17:40.355 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-09-16 18:17:40.359 [error] [/home/will/.vscode/extensions/ms-python.python-2024.14.1-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.91.0.
+2024-09-19 00:17:28.776 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-09-19 00:17:28.783 [error] [/home/will/.vscode/extensions/ms-python.python-2024.14.1-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.91.0.
+2024-09-19 00:22:29.365 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-09-19 00:22:29.367 [error] [/home/will/.vscode/extensions/ms-python.python-2024.14.1-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.91.0.
+2024-09-19 00:27:29.426 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-09-19 00:27:29.431 [error] [/home/will/.vscode/extensions/ms-python.python-2024.14.1-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.91.0.
+2024-09-19 00:32:29.485 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-09-19 00:32:29.487 [error] [/home/will/.vscode/extensions/ms-python.python-2024.14.1-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.91.0.
+2024-09-19 00:37:29.554 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-09-19 00:37:29.559 [error] [/home/will/.vscode/extensions/ms-python.python-2024.14.1-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.91.0.
+2024-09-19 00:42:29.633 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-09-19 00:42:29.635 [error] [/home/will/.vscode/extensions/ms-python.python-2024.14.1-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.91.0.

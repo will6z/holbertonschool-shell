@@ -1,0 +1,20 @@
+2024-09-16 18:07:32.149 [info] Log level: Info
+2024-09-16 18:07:32.149 [info] Validating found git in: "git"
+2024-09-16 18:07:32.150 [info] Using git "2.39.2" from "git"
+2024-09-16 18:07:32.150 [info] > git rev-parse --show-toplevel [15ms]
+2024-09-16 18:07:32.150 [info] > git rev-parse --git-dir --git-common-dir [17ms]
+2024-09-16 18:07:32.150 [info] Open repository: /home/will/holbertonschool-web_back_end
+2024-09-16 18:07:32.150 [info] > git rev-parse --show-toplevel [12ms]
+2024-09-16 18:07:32.150 [info] > git config --get commit.template [48ms]
+2024-09-16 18:07:32.159 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [28ms]
+2024-09-16 18:07:32.234 [info] > git status -z -uall [49ms]
+2024-09-16 18:07:32.334 [info] > git merge-base refs/heads/main refs/remotes/origin/main [64ms]
+2024-09-16 18:07:32.393 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [34ms]
+2024-09-16 18:07:32.413 [info] > git config --get commit.template [80ms]
+2024-09-16 18:07:32.430 [info] > git diff --name-status -z --diff-filter=ADMR a14239c36491eda0b794bdd562256d3bf2937bac...refs/remotes/origin/main [19ms]
+2024-09-16 18:07:32.854 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [48ms]
+2024-09-16 18:07:32.922 [info] > git status -z -uall [20ms]
+2024-09-16 18:07:33.466 [info] > git check-ignore -v -z --stdin [19ms]
+2024-09-16 18:07:38.672 [info] > git show --textconv :ES6_classes/README.md [22ms]
+2024-09-16 18:07:38.681 [info] > git ls-files --stage -- /home/will/holbertonschool-web_back_end/ES6_classes/README.md [11ms]
+2024-09-16 18:07:38.696 [info] > git cat-file -s 5dd2eac2e98505c80d262d40fb5ff2ecf24c774a [6ms]

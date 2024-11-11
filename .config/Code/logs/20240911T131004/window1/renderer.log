@@ -1,0 +1,4 @@
+2024-09-11 13:10:12.797 [info] Started local extension host with pid 647.
+2024-09-11 13:10:17.939 [error] [/home/will/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64]: Extension is not compatible with Code 1.90.1. Extension requires: ^1.92.0.
+2024-09-11 13:10:21.003 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-09-11 13:10:37.980 [info] [perf] Render performance baseline is 198ms
